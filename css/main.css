@@ -10,14 +10,14 @@
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background: #443a8b;
+	background: #31376E;
 	z-index: 100000000;
 	opacity: 1;
 	overflow:hidden;
 	text-align: center;
 }
 #loader {
-	background-color: #443a8b;
+	background-color: #31376E;
 }
 .home-slider #loader{
 	z-index: 9999;
