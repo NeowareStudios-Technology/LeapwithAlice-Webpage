@@ -1235,7 +1235,7 @@ header.header-3d{
 	margin-top: 20px;
 }
 .work-process .process-steps .step-2 {
-	pposition: relative;
+	position: relative;
 	z-index: 1;
 }
 .work-process .process-steps .step-3 {
