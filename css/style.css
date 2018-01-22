@@ -833,13 +833,13 @@ header.header-3d{
       HOME 
 ========================================================*/
 .home-agency {
-	height: 1000px;
+	height:1000px;
 	position: relative;
 }
 .home-agency .ag-text {
-	-ms-transform: rotate(-90deg);
+/*	-ms-transform: rotate(-90deg);
 	-webkit-transform: rotate(-90deg);
-	transform: rotate(-90deg);
+	transform: rotate(-90deg);*/
 }
 .home-agency {
 	text-align: center;
@@ -1074,8 +1074,8 @@ header.header-3d{
 	position: relative;
 }
 .btn-flat:hover {
-	color: #443a8b;
-	border-bottom: 2px solid #443a8b;
+	color: #31376e;
+	border-bottom: 2px solid #31376e;
 }
 .hello .cir-bottom-bg {
 	z-index: 1;
@@ -1186,7 +1186,7 @@ header.header-3d{
 	background: url(../images/bg/process-bottom.png) left 0px no-repeat;
 }
 .work-process {
-	background: #443a8b;
+	background: #31376e;
 	padding-top: 550px;
 	padding-bottom: 550px;
 	position: relative;
@@ -1823,7 +1823,7 @@ header.header-3d{
 	z-index: 99;
 }
 .our-team .team-names p {
-	color: #443a8b;
+	color: #31376e;
 	font-size: 13px;
 }
 /*=======================================================
@@ -1920,17 +1920,17 @@ header.header-3d{
 }
 .btn-large-1 {
 	font-size: 25px;
-	border: 3px solid #443a8b;
+	border: 3px solid #31376e;
 	color: #fff;
 	font-weight: bold;
-	background: #443a8b;
+	background: #31376e;
 	padding: 15px 50px;
 	text-transform: uppercase;
 }
 .btn-large-1:hover {
-	border: 3px solid #443a8b;
+	border: 3px solid #31376e;
 	background: #fff;
-	color: #443a8b;
+	color: #31376e;
 }
 /*=======================================================
       SKILLS
@@ -2701,7 +2701,7 @@ header.header-3d{
 	margin: 0px;
 }
 .admin-info span {
-	color: #443a8b;
+	color: #31376e;
 }
 .blog-post-home {
 	margin-top: 200px;
@@ -2750,7 +2750,7 @@ header.header-3d{
 	font-size: 12px;
 }
 .paging li a:hover {
-	color: #443a8b;
+	color: #31376e;
 }
 .portfolio-details {
 	z-index: 1;
@@ -2939,9 +2939,9 @@ header.header-3d{
 	line-height: 36px;
 }
 .coming-soon h1 {
-	color: #443a8b;
+	color: #31376e;
 	font-size: 48px;
-	color: #443a8b;
+	color: #31376e;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: normal;
@@ -3030,7 +3030,7 @@ header.header-3d{
       FOOTER
 ========================================================*/
 .footer {
-	background: #443a8b;
+	background: #31376e;
 	padding-top: 500px;
 	padding-bottom: 120px;
 	position: relative;
@@ -3163,7 +3163,7 @@ header.header-3d{
 	margin-top: 30px;
 }
 .testimonial #testi-slide span {
-	color: #443a8b;
+	color: #31376e;
 	margin-bottom: 30px;
 	display: inline-block;
 }
@@ -3856,7 +3856,7 @@ header.header-3d{
 	color: #b3b3b3 !important;
 }
 .dark-version .portfolio .cbp-item .port-detail h6 a:hover {
-	color: #443a8b !important;
+	color: #31376e !important;
 }
 .dark-version .filter-style-4 {
 	border-bottom: 1px solid rgba(255,255,255,0.2);
@@ -3874,11 +3874,11 @@ header.header-3d{
 	background: rgba(255,255,255,0.02);
 }
 .dark-version .filter-style-5 .cbp-filter-item:hover {
-	background: #443a8b;
+	background: #31376e;
 	color: #fff;
 }
 .dark-version .filter-style-5 .cbp-filter-item.cbp-filter-item-active {
-	background: #443a8b;
+	background: #31376e;
 	color: #fff;
 }
 .dark-version .filter-style-4 .cbp-filter-item {
