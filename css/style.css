@@ -833,7 +833,7 @@ header.header-3d{
       HOME 
 ========================================================*/
 .home-agency {
-	height: 1000px;
+	height: 1050px;
 	position: relative;
 }
 .home-agency .ag-text {
@@ -1030,7 +1030,7 @@ header.header-3d{
 .hello {
 	background-color: #f7f7f7;
 	padding-bottom: 300px;
-	padding-top: 300px;
+	padding-top: 150px;
 }
 .hello:after {
 	width: 0;
