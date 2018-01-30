@@ -1386,7 +1386,7 @@ header.header-3d{
 /*=======================================================
       PORTFOLIO
 ========================================================*/
-.portfolio {
+/*.portfolio {
 	background: url(../images/bg/portfolio-1.png) right top no-repeat;
 }
 .portfolio-in:before {
@@ -1555,7 +1555,7 @@ header.header-3d{
 }
 .portfolio .ma-3d .portfolio-item:hover .position-bottom {
 	bottom: 30px;
-}
+}*/
 /*=======================================================
       SINGLE PROJECT
 ========================================================*/
@@ -1848,7 +1848,7 @@ header.header-3d{
 	font-size: 40px;
 	margin: 0px;
 	margin-top: 80px;
-	margin-bottom: 30px;
+	margin-bottom: -100px;
 }
 .profile-main .test-sec {
 	position: relative;
@@ -1911,6 +1911,7 @@ header.header-3d{
 .profile-main .btn-part {
 	margin-top: 50px;
 	text-align: center;
+	margin-top: 50px;
 }
 .profile-main .btn-large {
 	margin: 0 10px;
@@ -2221,7 +2222,7 @@ header.header-3d{
 /*=======================================================
       BLOG LIST STYLE
 ========================================================*/
-.blog-list .list-tags a {
+/*.blog-list .list-tags a {
 	display: inline-block;
 	font-size: 25px;
 	font-family: 'Playfair Display', serif;
@@ -2307,7 +2308,7 @@ header.header-3d{
 }
 .blog-detail .testi-sim {
 	padding-top: 0px;
-}
+}*/
 /*=======================================================
       PRICING
 ========================================================*/

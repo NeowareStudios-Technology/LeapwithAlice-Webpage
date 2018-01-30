@@ -2550,12 +2550,7 @@ header.is-fixed {
 	list-style-type: none;
 	overflow: hidden
 }
-.cbp-item.portfolio-item{
-	margin:0px !important;
-}
-.cbp-item.portfolio-item article{
-	margin-bottom:30px;
-}
+
 .cbp img {
 	display: block;
 	border: 0;
