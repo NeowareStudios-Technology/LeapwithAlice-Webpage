@@ -3143,18 +3143,22 @@ header.header-3d{
 	right: -100px;
 	bottom: 20px;
 }
-.testimonial .owl-controls .owl-nav div {
+
+/*.testimonial .owl-controls .owl-nav div {
 	display: inline-block;
-	margin: 0 10px;
+	margin: 0px;
 	font-size: 28px;
 	color: #7b7a7d;
+
+
 }
 .testimonial .owl-controls .owl-nav .owl-prev {
 	display: inline-block !important;
+	
 }
 .testimonial .owl-controls .owl-nav .owl-next {
 	display: inline-block !important;
-}
+}*/
 .testimonial .avatar-sec img {
 	margin-bottom: 50px;
 }
