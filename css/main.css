@@ -6294,7 +6294,7 @@ transform:translateY(0)
 ========================================================*/
 .padding-top-bot-300 {
 	padding-bottom: 300px !important;
-	padding-top: 300px !important;
+	padding-top: 50px !important;
 }
 .margin-right-150 {
 	margin-right: 150px !important;

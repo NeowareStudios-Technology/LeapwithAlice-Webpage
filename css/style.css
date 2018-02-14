@@ -81,12 +81,22 @@ h6 {
 }
 p {
 	font-family: 'Montserrat', sans-serif;
-	color: #b2b1b8;
+	color: #000;
 	font-size: 18px;
 	letter-spacing: 0.5px;
 	line-height: 30px;
 	text-rendering: optimizeLegibility;
 }
+
+.process-steps p {
+	font-family: 'Montserrat', sans-serif;
+	color: #B2B1B8;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	text-rendering: optimizeLegibility;
+}
+
 a {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -1044,7 +1054,7 @@ header.header-3d{
 }
 .hello h4 {
 	line-height: 52px;
-	color: #b2b1b8;
+	color: #000;
 	font-weight: normal;
 	margin: 0px;
 	margin-bottom: 50px;
@@ -1138,7 +1148,7 @@ header.header-3d{
 	font-weight: bold;
 }
 .sub-bnr p {
-	color: #b2b1b8;
+	color: #000;
 }
 .sub-bnr-home {
 	background: #f8f8f6 url(../images/bg/sub-bnr-home.png) 770px bottom no-repeat;
@@ -1631,7 +1641,7 @@ header.header-3d{
 .portfolio-details .social-icons a {
 	font-size: 18px;
 	margin-right: 10px;
-	color: #b2b1b8;
+	color: #000;
 }
 .portfolio-details .social-icons {
 	margin-bottom: 80px;
@@ -1898,7 +1908,7 @@ header.header-3d{
 .profile-main .profile-inn .nav.nav-pills li a {
 	font-size: 30px;
 	background: none !important;
-	color: #b2b1b8;
+	color: #000;
 	border-right: 1px solid #dddde0;
 	padding: 0px 20px;
 }
@@ -2010,7 +2020,7 @@ header.header-3d{
 	float: right;
 	position: absolute;
 	right: -70px;
-	color: #b2b1b8;
+	color: #000;
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: normal;
@@ -2577,7 +2587,7 @@ header.header-3d{
 	font-size: 12px;
 	display: inline-block;
 	width: 100%;
-	color: #b2b1b8;
+	color: #000;
 }
 .post-content hr {
 	width: 90px;
@@ -2796,7 +2806,7 @@ header.header-3d{
 	top: 20px;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
-	color: #b2b1b8;
+	color: #000;
 }
 .blog-list-page .list-work article .tittle {
 	font-size: 40px;
@@ -2926,7 +2936,7 @@ header.header-3d{
 }
 .shr-info a {
 	font-size: 12px;
-	color: #b2b1b8;
+	color: #000;
 }
 /*=======================================================
       COMING SOON
