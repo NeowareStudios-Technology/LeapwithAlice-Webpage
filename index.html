@@ -17,10 +17,28 @@
 <!-- StyleSheets -->
 <link rel="stylesheet" href="css/ionicons.min.css">
 <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/responsive.css">
+
+
+<link rel="stylesheet" type="text/css" href="/path/to/modal-video.min.css">
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="YouTubePopUp.css">
+    <script type="text/javascript" src="jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="YouTubePopUp.jquery.js"></script>
+    <script type="text/javascript">
+      jQuery(function(){
+          jQuery("a.bla-1").YouTubePopUp();
+          jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+      });
+    </script>
+
+    <link rel="stylesheet" href="YouTubePopUp.css">
+
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -120,6 +138,44 @@
           <br><br><br><br>
 
           <div class="btn-part"> <a href="https://s3.us-east-2.amazonaws.com/documents-alice/LWA+WHITEPAPER+V1.pdf" class="btn-large">WHITEPAPER</a> </div>
+
+
+
+<br><br>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      
+      <div class="modal-body">
+
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>        
+        <!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+</div>
+        
+        
+      </div>
+
+    </div>
+  </div>
+</div> 
+  
+
+
+
+
+
+
+
+
         </div>
       </div>
     </div>
@@ -148,17 +204,27 @@
           <h4>We are a team focused on turning education sideways. We strive to innovate, enhance and improve what education can and should be.</h4>
           <div class="test-info">
             <p>Through the use of Augmented Reality, we bring old forms of education to life. The solar system literally jumps out of a piece of paper and bring a whole new meaning to hands-on learning. But how is this content being created? Well its pretty simple actually, it's you. We want to enable educators with the opportunity to create lesson plans through Alice. Once created we give the opportunity to sell those lesson plans to others all across the world. Education is a collaborative effort. It may take a village to raise a child, but it takes the world to educate them.</p> </div> <br><br><br>
-            <div class="btn-part"> <a href="https://s3.us-east-2.amazonaws.com/documents-alice/LWA+Pitch+Deck.pdf" class="btn-large">Investor Deck</a> </div>
+            <div class="btn-part"> <a href="https://s3.us-east-2.amazonaws.com/documents-alice/LWA+Pitch+Deck.pdf" class="btn-large">Investor Deck</a> <br> <br> <a href="https://vimeo.com/260834535" class="btn-large btn-large-1 ">Video Demo</a></div>
         </div>
       </div>
 
 
 
+
+
+
+
+
+              
       
       <!-- Bottom BG Style -->
       <div class="cir-bottom-bg"></div>
 
     </section>
+
+
+
+
 
 
 
@@ -231,34 +297,9 @@
       </div>  
   </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </section>
+  </section>
         
         <!-- Blog -->
-
-
-
-
-    
-
-
- 
 
     
     <!-- Portfolio -->
@@ -376,11 +417,11 @@
         <!-- Heading Block -->
         <div class="heading-block">
           <h6 class="animate fadeInRight" data-wow-delay="0.4s">Look into our</h6>
-          <span class="huge-tittle">PRE-ICO</span> </div>
+          <span class="huge-tittle">INITIAL PRIVATE SEED ROUND</span> </div>
 
 
           <div class="col-md-6 center-auto">
-              <p> Investment opportunities available! With the surge in popularity in ICO's and the demanding scope of said projects, we are currently seeking Pre-ICO investors to help us fund, create and release this leap in education. </p>
+              <p> Investment opportunities are available! With the surge in popularity in ICO's and the demanding scope of said projects, we are currently seeking funding and partnerships with valued investors. If interested, please review and send the eligibility criteria investor signup form to the link below.  </p>
             </div>
         
         <!-- Blog -->
@@ -390,7 +431,7 @@
           <br>
           <!-- Load More Work -->
           
-          <div class="btn-part text-center"> <a href="https://s3.us-east-2.amazonaws.com/documents-alice/ib_accreditedinvestors.pdf" class="btn-large">Eligibity Criteria</a> </div> <br> <div class="btn-part text-center">  <a href="https://s3.us-east-2.amazonaws.com/documents-alice/FormD+Offering+Docs.pdf" class="btn-large btn-large-1 ">Investor Signup</a> </div> 
+          <div class="btn-part text-center"> <a href="https://s3.us-east-2.amazonaws.com/documents-alice/Eligibility+Forms.zip" class="btn-large">Eligibity Forms</a> </div> <br> <div class="btn-part text-center">  <a href="mailto:info@leapwithalice.io" class="btn-large btn-large-1 ">Investor Signup</a> </div> 
 
         </div>
         </div>
@@ -678,6 +719,10 @@
 
         <a href="https://github.com/AlfonsoMorales/Leap-With-Alice-Demo"><i class="fa fa-github"></i></a>
 
+        <a href="https://t.me/LeapWithAlice"><i class="fa fa-telegram"></i></a>
+
+        <!-- <a href="https://github.com/AlfonsoMorales/Leap-With-Alice-Demo"><i class="fa fa-slack"></i></a> -->
+
          </div>
        
         <p class="margin-top-30"><small><font color="white"> Copyright © 2018 LeapWithAlice.io 
@@ -690,8 +735,8 @@
         <br>
 
 
-        In collaboration with: </small> </font> </p>
-        <div class="btn-part text-center"> <a href="https://Foxlio.com" class="btn-large">FOXLIO</a> </div> <br> <div class="btn-part text-center">  </div>
+    <!--     In collaboration with: </small> </font> </p>
+        <div class="btn-part text-center"> <a href="https://Foxlio.com" class="btn-large">FOXLIO</a> </div> <br> <div class="btn-part text-center">  </div> -->
 
       </div>
     </div>
@@ -751,5 +796,6 @@
 <script type="text/javascript" src="rs-plugin/js/jquery.tp.t.min.js"></script> 
 <script type="text/javascript" src="rs-plugin/js/jquery.tp.min.js"></script> 
 <script src="js/main.js"></script>
+<script src="js/modalvideo.js"></script>
 </body>
 </html>
