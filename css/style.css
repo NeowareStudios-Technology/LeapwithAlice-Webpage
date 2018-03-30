@@ -330,6 +330,7 @@ section {
 }
 .heading-block.white .huge-tittle {
 	color: #fff;
+	
 }
 .heading-block hr {
 	width: 90px;
@@ -845,6 +846,8 @@ header.header-3d{
 .home-agency {
 	height: 1050px;
 	position: relative;
+	background-image: url("paper.gif");
+    background-repeat: repeat;
 }
 .home-agency .ag-text {
 /*	-ms-transform: rotate(-90deg);
@@ -875,7 +878,7 @@ header.header-3d{
 	font-weight: normal;
 }
 .home-agency {
-	background: #31376E url(../images/bg/bnr-home.png) center bottom fixed no-repeat;
+	background: #31376E url(../images/bg/bnr-home.png) center bottom fixed repeat;
 }
 .home-agency .ag-text {
 	margin-top: 100px;
@@ -4504,3 +4507,25 @@ header .is-sticky .sticky {
 }
 
 }
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
