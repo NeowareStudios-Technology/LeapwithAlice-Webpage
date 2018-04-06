@@ -1,2 +1,1 @@
-# Leapwithalice.io
-Webpage for Alice ICO
+# LWA_Site_Revision
