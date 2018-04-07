@@ -1,8 +1,8 @@
 /*!
-Template :	ICO Crypto - Cryptocurrency Landing Template
-Author	 :	Softnio
-Version	 :	1.1.2
-Updated	 :	03.20.2018
+Template :  ICO Crypto - Cryptocurrency Landing Template
+Author   :  Softnio
+Version  :  1.1.2
+Updated  :  03.20.2018
 */
 /*!
  * Table of Contents
@@ -754,7 +754,7 @@ select:focus { outline: none; border: none; }
 .site-header .scroll-down:after { position: absolute; content: ""; height: 1px; width: 40px; background: #fff; left: -52px; top: 50%; animation: upDown2 2s infinite; }
 
 @keyframes upDown2 { 0%, 20%, 50%, 80%, 
-	100% { transform: translateX(0); }
+  100% { transform: translateX(0); }
   40% { transform: translateX(4px); }
   60% { transform: translateX(6px); } }
 .theme-light .site-header .navbar-nav > li:hover a { color: #46bdf4; }
@@ -795,9 +795,9 @@ select:focus { outline: none; border: none; }
 
 .header-image { position: relative; z-index: 3; margin: 0 -150px 0 -30px; /* @v1.1.0 s */ /* @v1.1.0 e */ }
 .header-image-icon { position: absolute; top: 32%; width: 30px; }
-.header-image .left-icon { left: 0%; margin-left: -1px; animation: jumping 1s linear 0s infinite alternate; }
-.header-image .right-icon { right: %; margin-right: -5px; margin-top: 5px; animation: jumping 1s linear .5s infinite alternate; }
-.header-image-alt { min-width: 650px; }
+.header-image .left-icon { left: 44%; margin-left: -1px; animation: jumping 1s linear 0s infinite alternate; }
+.header-image .right-icon { right: 41%; margin-right: -5px; margin-top: 5px; animation: jumping 1s linear .5s infinite alternate; }
+.header-image-alt { min-width: 1050px; }
 .header-image-element { position: absolute; width: 72px; }
 .header-image-element-1 { left: 43%; bottom: 21%; }
 .header-image-element-2 { left: 61%; bottom: 30%; }
@@ -821,17 +821,17 @@ select:focus { outline: none; border: none; }
 @media only screen and (max-width: 480px) { .page-banner { min-height: 180px; }
   .page-head-image { max-width: 220px; right: -50px; bottom: -40px; } }
 /* @v111 e*/
-@media only screen and (min-width: 992px) and (max-width: 1199px) { .section:not(.team-section) img, .section:not(.blog-section) img { display: block; margin-left: auto; margin-right: auto; max-width: 360px; }
-  .comment-photo img { max-width: 60px !important; }
-  .banner { min-height: 500px; }
-  .blog-item { max-width: 360px; margin-left: auto; margin-right: auto; }
-  .header-image { width: 400px; margin: 0 auto; /* @v1.1.0 s */ /* @v1.1.0 e */ }
+@media only screen and (min-width: 992px) and (max-width: 1199px) { .site-header .navbar-btns { margin-left: 30px; }
+  .site-header .scroll-down { bottom: 100px; right: 20px; }
+  .partner-list-s2 { padding-right: 60px; }
+  .navbar .navbar-nav > li > a { font-size: 12px; margin: 0 6.5px; }
+  .header-image { /* @v1.1.0 s */ /* @v1.1.0 e */ }
   .header-image .left-icon { margin-left: -3px; }
-  .header-image .right-icon { margin-right: 107px; margin-bottom: 170px;}
-  .header-image-alt { min-width: 400px; max-width: 400px; margin: 0 auto; }
-  .header-image-element { width: 25px; }
-  .header-image-element-1 { left: 30%; bottom: 21%; }
-  .header-image-element-2 { left: 37%; bottom: 30%; } }
+  .header-image .right-icon { margin-right: -7px; }
+  .header-image-alt { min-width: 750px; }
+  .header-image-element { position: absolute; width: 50px; }
+  .header-image-element-1 { left: 38%; bottom: 20%; }
+  .header-image-element-2 { left: 53%; bottom: 30%; } }
 @media only screen and (max-width: 991px) { .site-header .navbar-brand { margin-left: 15px; }
   .site-header .navbar.is-transparent.active { background: #6466B3; }
   .theme-light .site-header .navbar.is-transparent.active { background: #6466B3; }
@@ -847,11 +847,8 @@ select:focus { outline: none; border: none; }
   .navbar .navbar-nav li a.nav-link { padding: 0 5px; }
   .navbar .navbar-nav .dropdown-menu { width: 100%; opacity: 1; visibility: visible; display: none; }
   .navbar .navbar-nav .dropdown-menu:after { display: none; } }
-@media only screen and (min-width: 1800px) { .banner { min-height: 1000vh; }
+@media only screen and (min-width: 1800px) { .banner { min-height: 96vh; }
   .banner.banner-full { height: 100vh; } }
-  .header-image-alt { min-width: 990px; }
-  .header-image-alt {margin-left: -50px}
-  .header-image-alt {margin-bottom: 100px}
 @media only screen and (max-width: 991px) { .banner { min-height: 1000px; }
   .banner.banner-full { min-height: 830px; }
   .header-image { width: 690px; margin: 0 auto; /* @v1.1.0 s */ /* @v1.1.0 e */ }
@@ -868,7 +865,7 @@ select:focus { outline: none; border: none; }
   .header-image-icon { top: 30%; width: 20px; }
   .header-image .left-icon { margin-left: 1px; }
   .header-image .right-icon { margin-right: -1px; }
-  .header-image-alt { min-width: 540px; max-width: 540px; margin: 0 auto; }
+  .header-image-alt { min-width: 440px; max-width: 440px; margin: 0 auto; }
   .header-image-element { width: 30px; }
   .header-image-element-1 { left: 27%; bottom: 21%; }
   .header-image-element-2 { left: 35.5%; bottom: 30%; } }
@@ -881,7 +878,7 @@ select:focus { outline: none; border: none; }
   .header-image-icon { top: 30%; width: 14px; }
   .header-image .left-icon { left: 44%; margin-left: -2px; }
   .header-image .right-icon { right: 41%; margin-right: -3px; margin-top: 5px; }
-  .header-image-alt { min-width: 400px; max-width: 400px; margin: 0 auto; }
+  .header-image-alt { min-width: 280px; max-width: 280px; margin: 0 auto; }
   .header-image-element { width: 20px; }
   .header-image-element-1 { left: 32%; bottom: 21%; }
   .header-image-element-2 { left: 39%; bottom: 30%; }
@@ -920,14 +917,14 @@ select:focus { outline: none; border: none; }
 .btn.btn-more { background: transparent; text-transform: uppercase; font-weight: 500; letter-spacing: 0.2em; color: #46bdf4; font-size: .9em; }
 .btn.btn-more:before { display: none; }
 .btn.btn-more .ti { position: relative; top: 1px; transition: all .4s ease; }
-.btn.btn-more:hover { color: #373C88; }
+.btn.btn-more:hover { color: #7a0fff; }
 .btn.btn-more:hover .ti { margin-left: 6px; }
 
 .play-btn { position: relative; display: inline-block; transition: all .5s ease; /* @v1.1.0 s */ /* @v1.1.0 e */ }
 .play-btn:hover { margin-left: 10px; }
 .play-btn-alt { color: #fff; text-align: center; height: 60px; width: 60px; transition: all .5s ease; }
 .play-btn-alt:after { position: absolute; content: ""; height: calc(100% + 16px); width: calc(100% + 16px); top: -8px; left: -8px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, 0.35); animation: 1s ease 0s normal none infinite running playbutton; }
-.play-btn-alt .fa { font-size: 24px; height: 60px; width: 60px; border-radius: 50%; background: linear-gradient(to right, #2b56f5 0%, #10122d 100%); line-height: 60px; text-align: center; margin-left: auto; margin-right: auto; color: #fff; }
+.play-btn-alt .fa { font-size: 24px; height: 60px; width: 60px; border-radius: 50%; background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); line-height: 60px; text-align: center; margin-left: auto; margin-right: auto; color: #fff; }
 .play-btn-alt .fa + span { position: absolute; display: inline-block; top: calc(100% + 10px); left: 50%; min-width: 200px; transform: translateX(-50%); }
 .play-btn-alt:hover, .play-btn-alt:focus { color: #fff; margin-top: -20px !important; }
 .section-pro .play-btn-alt:after, .section-pro-alt .play-btn-alt:after { border: 1px solid rgba(70, 189, 244, 0.35); }
@@ -1027,8 +1024,8 @@ select:focus { outline: none; border: none; }
 .section-bg-alt .countdown-box { background: #10122d; }
 .io-azure .countdown-box { background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); }
 .io-azure .countdown-box .token-countdown .countdown-text { color: #340075; }
-.io-azure .countdown-box .btn.btn-alt { padding-left: 40px; padding-right: 40px; -ms-border-radius: 19px; border-radius: 19px; background-image: linear-gradient(to right, #353AC7 0%, #785BFE 100%); }
-.io-azure .countdown-box .btn.btn-alt:before { -ms-border-radius: 19px; border-radius: 19px; background-image: linear-gradient(to right, #785BFE 0%, #353AC7 100%); }
+.io-azure .countdown-box .btn.btn-alt { padding-left: 40px; padding-right: 40px; -ms-border-radius: 19px; border-radius: 19px; background-image: linear-gradient(to right, #340075 0%, #0d9ee0 100%); }
+.io-azure .countdown-box .btn.btn-alt:before { -ms-border-radius: 19px; border-radius: 19px; background-image: linear-gradient(to right, #0d9ee0 0%, #340075 100%); }
 .countdown-box h6 { text-transform: uppercase; }
 .countdown-box .token-countdown { padding-bottom: 33px; }
 .countdown-box .token-countdown .countdown-time { font-size: 45px; font-weight: 300; line-height: 1; display: block; margin-bottom: 5px; position: relative; }
