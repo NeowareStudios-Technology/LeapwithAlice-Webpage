@@ -797,7 +797,7 @@ select:focus { outline: none; border: none; }
 .header-image-icon { position: absolute; top: 32%; width: 30px; }
 .header-image .left-icon { left: 44%; margin-left: -1px; animation: jumping 1s linear 0s infinite alternate; }
 .header-image .right-icon { right: 41%; margin-right: -5px; margin-top: 5px; animation: jumping 1s linear .5s infinite alternate; }
-.header-image-alt { min-width: 1050px; }
+.header-image-alt { min-width: 650px; }
 .header-image-element { position: absolute; width: 72px; }
 .header-image-element-1 { left: 43%; bottom: 21%; }
 .header-image-element-2 { left: 61%; bottom: 30%; }
@@ -828,7 +828,7 @@ select:focus { outline: none; border: none; }
   .header-image { /* @v1.1.0 s */ /* @v1.1.0 e */ }
   .header-image .left-icon { margin-left: -3px; }
   .header-image .right-icon { margin-right: -7px; }
-  .header-image-alt { min-width: 750px; }
+  .header-image-alt { min-width: 500px; }
   .header-image-element { position: absolute; width: 50px; }
   .header-image-element-1 { left: 38%; bottom: 20%; }
   .header-image-element-2 { left: 53%; bottom: 30%; } }
