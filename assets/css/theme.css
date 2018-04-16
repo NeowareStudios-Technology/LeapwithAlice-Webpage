@@ -232,4 +232,11 @@ a:hover, a:focus, a:active { color: #8255fd; }
 .theme-light .search-form button:hover { background: rgba(70, 189, 244, 0.8); }
 .io-azure .section-pro .search-form button:hover { background: rgba(70, 189, 244, 0.8); color: #fff; }
 
+
+.token-status-bar { background: #fff; }
+.token-status-percent { background: linear-gradient(to right, #46bdf4 0%, #2b56f5 100%); }
+.io-azure .banner-tokensale .token-status-percent { background: linear-gradient(to right, #2b56f5 0%, #0b39e2 100%); }
+.token-status-point:after { background: rgba(130, 85, 253, 0.35); }
+
+
 /*! END */
