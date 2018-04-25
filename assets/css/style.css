@@ -121,6 +121,7 @@ a:hover, a:focus, a:active { outline: 0; color: #8255fd; }
 .section-bg-alt { background: #0b0c22; }
 .theme-light .section-bg-alt { background: #fff; }
 .io-azure .section-bg-alt { background: #3D41A0; }
+.io-azure .section-bg-altered { background-image: linear-gradient(to bottom, #383D90 0%, #353A86 70%); }
 
 .section-bg-dark { background: #08091b; }
 .theme-light .section-bg-dark { background: #e5f0ff; }
@@ -226,6 +227,9 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
 .logo-carousel .owl-dots { display: none !important; }
 
 .owl-theme .owl-nav { margin-top: 0; }
+
+.partner-list-s3 {display: block;
+    margin: 0 auto;}
 
 .hr-line { height: 1px; background: #ebebeb; }
 
@@ -824,6 +828,7 @@ select:focus { outline: none; border: none; }
 @media only screen and (min-width: 992px) and (max-width: 1199px) { .site-header .navbar-btns { margin-left: 30px; }
   .site-header .scroll-down { bottom: 100px; right: 20px; }
   .partner-list-s2 { padding-right: 60px; }
+   .partner-list-s3 { padding-right: 60px; }
   .navbar .navbar-nav > li > a { font-size: 12px; margin: 0 6.5px; }
   .header-image { /* @v1.1.0 s */ /* @v1.1.0 e */ }
   .header-image .left-icon { margin-left: -3px; }
