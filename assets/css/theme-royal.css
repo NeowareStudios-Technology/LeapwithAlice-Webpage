@@ -1,8 +1,8 @@
 /*!
 Template :	ICO Crypto @by Softnio
 Preset   :	Royal
-Version	 :	1.1.2
-Updated	 :	03.20.2018
+Version	 :	1.2.1
+Updated	 :	04.28.2018
 */
 h1.color-secondary, h2.color-secondary, h3.color-secondary, h4.color-secondary, h5.color-secondary, h6.color-secondary, .h1.color-secondary, .h2.color-secondary, .h3.color-secondary, .h4.color-secondary, .h5.color-secondary, .h6.color-secondary { color: #8207ff; }
 h1.color-primary, h2.color-primary, h3.color-primary, h4.color-primary, h5.color-primary, h6.color-primary, .h1.color-primary, .h2.color-primary, .h3.color-primary, .h4.color-primary, .h5.color-primary, .h6.color-primary { color: #304ffe; }
@@ -95,11 +95,21 @@ a:hover, a:focus, a:active { color: #9125ff; }
 .event-info:before { background: #304ffe; }
 
 .countdown-box .token-countdown .countdown-text { color: #304ffe; }
-.countdown-box.countdown-header:after { border-color: rgba(130, 7, 255, 0.1); }
-.countdown-box.countdown-header:before { border-color: rgba(130, 7, 255, 0.1); }
-.countdown-box.countdown-header .extra-line { border-color: rgba(130, 7, 255, 0.1); }
-.countdown-box.countdown-header .extra-line:after { border-color: rgba(130, 7, 255, 0.1); }
+.countdown-box.countdown-header:after { border-color: rgba(130, 7, 255, 0.4); }
+.countdown-box.countdown-header:before { border-color: rgba(130, 7, 255, 0.4); }
+.countdown-box.countdown-header .extra-line { border-color: rgba(130, 7, 255, 0.4); }
+.countdown-box.countdown-header .extra-line:after { border-color: rgba(130, 7, 255, 0.4); }
 .io-azure .countdown-box { background: linear-gradient(to right, #16a2ff 0%, #304ffe 100%); }
+
+.theme-light .countdown-box.countdown-header:after { border-color: rgba(130, 7, 255, 0.1); }
+.theme-light .countdown-box.countdown-header:before { border-color: rgba(130, 7, 255, 0.1); }
+.theme-light .countdown-box.countdown-header .extra-line { border-color: rgba(130, 7, 255, 0.1); }
+.theme-light .countdown-box.countdown-header .extra-line:after { border-color: rgba(130, 7, 255, 0.1); }
+
+.io-dark-light .section-light .countdown-box.countdown-header:after, .io-dark-light .section-light-alt .countdown-box.countdown-header:after { border-color: rgba(130, 7, 255, 0.1); }
+.io-dark-light .section-light .countdown-box.countdown-header:before, .io-dark-light .section-light-alt .countdown-box.countdown-header:before { border-color: rgba(130, 7, 255, 0.1); }
+.io-dark-light .section-light .countdown-box.countdown-header .extra-line, .io-dark-light .section-light-alt .countdown-box.countdown-header .extra-line { border-color: rgba(130, 7, 255, 0.1); }
+.io-dark-light .section-light .countdown-box.countdown-header .extra-line:after, .io-dark-light .section-light-alt .countdown-box.countdown-header .extra-line:after { border-color: rgba(130, 7, 255, 0.1); }
 
 .roadmap-list:after { background: #8207ff; }
 
@@ -231,5 +241,94 @@ a:hover, a:focus, a:active { color: #9125ff; }
 .theme-light .search-form button { background: rgba(48, 79, 254, 0.5); }
 .theme-light .search-form button:hover { background: rgba(48, 79, 254, 0.8); }
 .io-azure .section-pro .search-form button:hover { background: rgba(48, 79, 254, 0.8); color: #fff; }
+
+.io-azure .banner-tokensale .countdown-box .btn.btn-alt { background-image: linear-gradient(to right, #16a2ff 0%, #304ffe 100%); }
+.io-azure .banner-tokensale .countdown-box .btn.btn-alt:before { background-image: linear-gradient(to right, #304ffe 0%, #8207ff 100%); }
+
+.token-status-bar { background: #fff; }
+.token-status-percent { background: linear-gradient(to right, #304ffe 0%, #16a2ff 100%); }
+.io-azure .banner-tokensale .token-status-percent { background: linear-gradient(to right, #16a2ff 0%, #0088e2 100%); }
+.token-status-point:after { background: rgba(145, 37, 255, 0.35); }
+
+.theme-lavendar .btn { background: #304ffe; }
+.theme-lavendar .btn:hover { background: #ff9259; }
+.theme-lavendar .btn.btn-plane:hover { background: #304ffe; }
+.theme-lavendar .btn.btn-simple .fa { color: #304ffe; }
+.theme-lavendar .btn.btn-white { color: #304ffe; }
+.theme-lavendar .btn.btn-white:hover { background: #ff9259; }
+.theme-lavendar .btn.btn-simple { background: none; }
+.theme-lavendar .btn.btn-simple .fa { color: #304ffe; }
+.theme-lavendar .btn.btn-outline { background: transparent; border-color: #fff; }
+.theme-lavendar .btn.btn-outline:after { background: transparent; }
+.theme-lavendar .owl-dot { background: rgba(48, 79, 254, 0.3); }
+.theme-lavendar .owl-dot.active { background: rgba(48, 79, 254, 0.8); }
+.theme-lavendar .site-header.has-fixed .btn.btn-white { background: #304ffe; }
+.theme-lavendar .site-header.has-fixed .btn.btn-white:hover { background: #ff9259; }
+.theme-lavendar .site-header.has-fixed .btn.btn-outline { border-color: #304ffe; color: #304ffe; }
+.theme-lavendar .navbar-toggler { background: #8207ff; }
+
+.section-bg-light .small-heading, [class*=section-bg-light] .small-heading { color: rgba(48, 79, 254, 0.5); }
+
+.section-bg-lavendar { background: #304ffe; }
+.section-bg-lavendar .section-head-s3 .section-title:before { background: #ff9259; }
+
+.section-bg-light-alt { background: rgba(48, 79, 254, 0.04); }
+
+.section-head-s3 .section-title:before { background: #304ffe; }
+
+.warnning-badge { background: #ff9259; }
+
+.banner-rounded-bg { background: #304ffe; }
+
+.token-box .icon-list li .fa { color: #304ffe; }
+.token-box .token-countdown .countdown-time { color: #304ffe; }
+.token-box .token-countdown .countdown-time:after { color: #304ffe; }
+.token-bar { background: rgba(48, 79, 254, 0.1); }
+.token-percent { background: #304ffe; }
+.token-point:after { background: rgba(48, 79, 254, 0.4); }
+
+.roadmap-carousel:before, .roadmap-carousel:after { background: #afbbff; }
+.roadmap-carousel-container:before { background: #afbbff; }
+.roadmap-item h6:before { background: rgba(48, 79, 254, 0.3); }
+.roadmap-item h6:after { background: #304ffe; }
+.roadmap-done h6:before { background: rgba(130, 7, 255, 0.3); }
+.roadmap-done h6:after { background: #8207ff; }
+
+.about-section-innr:before { background: #304ffe; }
+.about-section-innr:after { background: #304ffe; }
+.about-info { background: rgba(22, 162, 255, 0.4); }
+.about-info .ti { color: #8207ff; }
+
+.reason-item .ikon { color: #304ffe; }
+
+.process-scetion .slider-nav-item { color: #304ffe; }
+.process-scetion .slider-nav-item:nth-child(2) { color: #8207ff; }
+.process-scetion .slider-nav-item:nth-child(3) { color: #16a2ff; }
+.process-scetion .slider-nav-item:nth-child(4) { color: #ff9259; }
+.process-scetion .slider-nav-item.active { color: #fff; background: #304ffe; }
+.process-scetion .slider-nav-item.active:nth-child(2) { background: #8207ff; }
+.process-scetion .slider-nav-item.active:nth-child(3) { background: #16a2ff; }
+.process-scetion .slider-nav-item.active:nth-child(4) { background: #ff9259; }
+.process-scetion .slider-nav-item.active:nth-child(5) { background: #38385f; }
+
+.features-item .ti { background: #8207ff; }
+
+.team-described .team-photo:before { background-image: linear-gradient(to top left, rgba(130, 7, 255, 0.65) 0%, rgba(48, 79, 254, 0.65) 100%); }
+.team-described .team-title { color: #8207ff; }
+.team-described .team-title:after { background-image: linear-gradient(to left, #304ffe 0%, #8207ff 100%); }
+.team-described .team-social li a { color: #8207ff; }
+.team-described .team-social li a:hover { color: #304ffe; }
+.team-described .team-discription li:before { background: #8207ff; }
+
+.section-bg-light .accordion .plus-minus .ti { color: #304ffe; }
+
+.media-heading a:hover { color: #304ffe; }
+
+.subscribe-rounded .input-round { background: rgba(48, 79, 254, 0.07); }
+
+.footer-lavendar { background: #304ffe; }
+
+.social-bar li a { color: #304ffe; }
+/*! Write Your OWN CODE HERE */
 
 /*! END */
