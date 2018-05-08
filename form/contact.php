@@ -6,10 +6,10 @@ $mail = new PHPMailer();
 $emailTO = $emailBCC =  $emailCC = array(); $formEmail = '';
 
 ### Enter Your Sitename 
-$sitename = 'Softnio';
+$sitename = 'Leap With Alice';
 
 ### Enter your email addresses: @required
-$emailTO[] = array( 'email' => 'email@yoursite.com', 'name' => 'Your Name' ); 
+$emailTO[] = array( 'email' => 'Alfonso@leapwithalice.io', 'name' => 'Alfonso' ); 
 
 ### Enable bellow parameters & update your BCC email if require.
 //$emailBCC[] = array( 'email' => 'email@yoursite.com', 'name' => 'Your Name' );
