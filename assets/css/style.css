@@ -1609,7 +1609,7 @@ select:focus { outline: none; border: none; }
 .blog-title { margin-top: 0; }
 .blog-title h5 { font-size: 1.2em; line-height: 1.67; margin-bottom: 12px; }
 .blog-title h3 { font-size: 2em; line-height: 1.67; margin-bottom: 12px; }
-.blog-title a { color: #fff; }
+.blog-title a { color: #000; }
 .blog-title p { color: #000; }
 .blog-title a:hover { color: #46bdf4; }
 .blog-tags { margin: 40px -5px 0; }
