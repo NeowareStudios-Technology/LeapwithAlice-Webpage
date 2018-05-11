@@ -177,12 +177,14 @@ a:hover, a:focus, a:active { color: #343459; }
 .language-switcher .dropdown-item:hover { color: #46bdf4; }
 
 .blog-photo a:after { background: linear-gradient(to right, #46bdf4 0%, #7a0fff 100%); }
-.blog-meta li { color: #7a0fff; }
+.blog-meta li { color: #fff; }
 .blog-meta li span { color: #46bdf4; }
-.blog-meta li:after { background: #4b00a8; }
-.blog-meta li a { color: #7a0fff; }
+.blog-meta li:after { background: #fff; }
+.blog-meta li a { color: #000; }
 .blog-meta li a:hover { color: #46bdf4; }
 .blog-title a:hover { color: #46bdf4; }
+.blog-title a { color: #000; }
+.blog-title  { color: #000; }
 .blog-tags li a { border-color: rgba(70, 189, 244, 0.2); }
 .blog-tags li a:hover { color: #46bdf4; }
 .theme-light .blog-title a:hover { color: #46bdf4; }
@@ -190,17 +192,17 @@ a:hover, a:focus, a:active { color: #343459; }
 .theme-light .blog-tags li a:hover { color: #46bdf4; }
 .io-azure .blog-title a:hover { color: #46bdf4; }
 .io-azure .blog-meta li { color: #46bdf4; }
-.io-azure .blog-meta li span { color: #46bdf4; }
-.io-azure .blog-meta li:after { background: #0c8dc8; }
+.io-azure .blog-meta li span { color: #46bdf4;}
+.io-azure .blog-meta li:after { background: #fff; }
 .io-azure .blog-meta li a { color: #46bdf4; }
 .io-azure .blog-meta li a:hover { color: #fff; }
 .io-azure .section-pro .blog-title a:hover { color: #46bdf4; }
 .io-azure .section-pro .blog-tags li a:hover { color: #46bdf4; }
 .io-azure .section-pro .blog-meta li { color: #7a0fff; }
 .io-azure .section-pro .blog-meta li span { color: #9c9c9c; }
-.io-azure .section-pro .blog-meta li:after { background: #4b00a8; }
+.io-azure .section-pro .blog-meta li:after { background: #fff; }
 .io-azure .section-pro .blog-meta li a { color: #7a0fff; }
-.io-azure .section-pro .blog-meta li a:hover { color: #46bdf4; }
+.io-azure .section-pro .blog-meta li a:hover { color: #000; }
 
 .comment-time { color: #7a0fff; }
 .comment-reply .fa { color: #7a0fff; }
@@ -209,9 +211,9 @@ a:hover, a:focus, a:active { color: #343459; }
 .io-azure .section-pro .comment-reply .fa { color: #7a0fff; }
 .io-azure .section-pro .comment-reply:hover { color: #7a0fff; }
 
-.page-pagination li a { color: rgba(70, 189, 244, 0.5); }
-.page-pagination li a:hover { background: rgba(122, 15, 255, 0.4); }
-.page-pagination li.active a { background: rgba(122, 15, 255, 0.4); }
+.page-pagination li a { color: #023DD8; background: #fff;}
+.page-pagination li a:hover { background: #023DD8; color: #fff; }
+.page-pagination li.active a { background: #023DD8; color: #fff; }
 .theme-light .page-pagination li a { color: #46bdf4; }
 .theme-light .page-pagination li a:hover { color: #fff; background: rgba(122, 15, 255, 0.4); }
 .theme-light .page-pagination li.active a { background: rgba(122, 15, 255, 0.4); }
@@ -253,6 +255,7 @@ a:hover, a:focus, a:active { color: #343459; }
 
 .theme-lavendar .btn { background: #0043EC; }
 .theme-lavendar .btn:hover { background: #fff; color: #0043EC; }
+.theme-lavendar .btn.btn-plane { background: #fff; }
 .theme-lavendar .btn.btn-plane:hover { background: #0043EC; }
 .theme-lavendar .btn.btn-simple .fa { color: #0043EC; }
 .theme-lavendar .btn.btn-white { background: #0043EC; color: #fff; } /* ***Color of navbar button */
