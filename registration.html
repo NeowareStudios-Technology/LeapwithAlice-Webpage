@@ -71,10 +71,10 @@
     <header class="site-header is-sticky">
 
       <!-- Place Particle Js -->
-      <div id="particles-js" class="particles-container particles-js"></div>
+      <!-- <div id="particles-js" class="particles-container particles-js"></div> -->
 
       <!-- Banner/Slider -->
-      <div id="Apps" class="banner banner-full d-flex align-items-center">
+      <div id="Apps" class="align-items-center">
         <div class="container">
           <div class="banner-content">
             <div class="row align-items-center mobile-center">
@@ -209,7 +209,7 @@
             request.setRequestHeader("User-Agent", "YOURCOMPANYNAME YOURAPPLICATIONNAME/x.x.x");
             request.setRequestHeader("Authorization", "Basic");
           },
-          data: url: "https://netverify.com/api/netverify/v2/initiateNetverify",
+          url: "https://netverify.com/api/netverify/v2/initiateNetverify",
           success: function(result) {
             console.log(result);
             // Update Token for Verification Request
