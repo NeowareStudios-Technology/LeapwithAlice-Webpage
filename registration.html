@@ -205,10 +205,15 @@
         // Make AJAX call to get Token
         $.ajax({
           type: "POST",
-          beforeSend: function(request) {
-            request.setRequestHeader("User-Agent", "YOURCOMPANYNAME YOURAPPLICATIONNAME/x.x.x");
-            request.setRequestHeader("Authorization", "Basic");
+          headers: {
+            'Authorization': 'Basic',
+            'User-Agent': 'YOURCOMPANYNAME YOURAPPLICATIONNAME/x.x.x',
+            'Content-Type': 'application/json'
           },
+          // beforeSend: function(request) {
+          //   request.setRequestHeader("User-Agent", "YOURCOMPANYNAME YOURAPPLICATIONNAME/x.x.x");
+          //   request.setRequestHeader("Authorization", "Basic");
+          // },
           url: "https://netverify.com/api/netverify/v2/initiateNetverify",
           success: function(result) {
             console.log(result);
