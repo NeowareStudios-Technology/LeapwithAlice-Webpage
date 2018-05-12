@@ -211,16 +211,18 @@
         $.ajax({
           type: "POST",
           headers: {
-            'Authorization': 'Basic',
+            // 'Authorization': 'Basic',
             // 'Content-Length': 'xxx',
-            'User-Agent': 'YOURCOMPANYNAME YOURAPPLICATIONNAME/x.x.x',
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
+            // 'User-Agent': 'YOURCOMPANYNAME YOURAPPLICATIONNAME/x.x.x',
+            // 'Accept': 'application/json',
+            // 'Content-Type': 'application/json'
           },
-          // beforeSend: function(request) {
-          //   request.setRequestHeader("User-Agent", "YOURCOMPANYNAME YOURAPPLICATIONNAME/x.x.x");
-          //   request.setRequestHeader("Authorization", "Basic");
-          // },
+          beforeSend: function(request) {
+            request.setRequestHeader("User-Agent", "YOURCOMPANYNAME YOURAPPLICATIONNAME/x.x.x");
+            request.setRequestHeader("Authorization", "Basic");
+            request.setRequestHeader("Accept", "application/json");
+            request.setRequestHeader("Content-Type", "application/json");
+          },
           url: "https://netverify.com/api/netverify/v2/initiateNetverify",
           success: function(result) {
             console.log(result);
