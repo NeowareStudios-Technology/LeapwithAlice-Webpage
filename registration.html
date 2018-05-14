@@ -110,6 +110,13 @@
                 hbspt.forms.create({
                   portalId: "4555673",
                   formId: "9511ab65-ea54-46e1-b23b-23ba145e5009"
+                  inlineMessage: 'Thank you for registering, you should recieve an email from the Leap With Alice Team to confirm your registration.',
+                  onFormSubmit: function($form){
+                  setTimeout( function() {
+                  var formData = $form.serialize();
+                  window.location = "http://www.leapwithalice.io" + formData;
+                    }, 250 ); // Redirects to url with query string data from form fields after 250 milliseconds.
+                  }
                 });
               </script>
 
