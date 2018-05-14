@@ -156,7 +156,7 @@
                   <div class="hs_submit hs-submit" data-reactid=".hbspt-forms-0.4.0">
                     <div class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.4.0.0"></div>
                     <div class="actions" data-reactid=".hbspt-forms-0.4.0.1">
-                      <input type="submit" value="Submit" class="hs-button primary large" data-reactid=".hbspt-forms-0.4.0.1.0"></div>
+                      <input type="submit" id="registerSubmit" value="Submit" class="hs-button primary large" data-reactid=".hbspt-forms-0.4.0.1.0"></div>
                   </div>
                 </div>
               </form>
@@ -230,6 +230,20 @@
 
     <script type="text/javascript">
       $(document).ready(function() {
+        console.log("ready!");
+        // Load Form
+        // Make AJAX call to get Token
+        $.ajax({
+          type: "GET",
+          url: "https://twg-lwa-register.herokuapp.com/index.html",
+          success: function(result) {
+            console.log("wake up call");
+          }
+        });
+      });
+
+      $('#registerSubmit').on('click', function(e) {
+        e.preventDefault();
 
         var data = $('#registration').serialize();
         console.log("ready!");
