@@ -1808,7 +1808,7 @@ select:focus { outline: none; border: none; }
 .section-bg-partners, [class*=section-bg-partners] { background: #0045EE; color: #8484a4; }
 .section-bg-unique, [class*=section-bg-unique] { background: linear-gradient(#0045EE, #0018f8); }
 .section-bg-unique p, {color: #D2DFFF; }
-.section-bg-hubspot , [class*=section-bg-hubspot] { background: white; }
+.section-bg-hubspot , [class*=section-bg-hubspot] { background: #B3BAE8; }
 .section-bg-form, [class*=section-bg-form] { background: linear-gradient(#0045EE, #000F9D); }
 .section-bg-free, [class*=section-bg-free] { background: linear-gradient(#0043EE, #0043EE); }
 .section-bg-media, [class*=section-bg-media] { background: linear-gradient(#0018f8, #0018f8); }
