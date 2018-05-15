@@ -213,8 +213,8 @@ method_of_id
                   <legend class="hs-field-desc" style="display:block;" data-reactid=".hbspt-forms-0.0:$9.1">Please select either ID and Social Secutiry No. or Passport</legend>
                   <div class="input" data-reactid=".hbspt-forms-0.0:$9.$method_of_id_">
                     <select id="method_of_id" required class="hs-input" name="method_of_id" data-reactid=".hbspt-forms-0.0:$9.$method_of_idr_.0" required>
-                      <option selected="selected" value="0" data-reactid=".hbspt-forms-0.0:$9.$method_of_id_.0.1:$Yes">ID and Social Secutiry No.</option>
-                      <option value="1" data-reactid=".hbspt-forms-0.0:$9.$method_of_id_.0.1:$No">Passport</option>
+                      <option selected="selected" value="ID" data-reactid=".hbspt-forms-0.0:$9.$method_of_id_.0.1:$Yes">ID and Social Secutiry No.</option>
+                      <option value="Passport" data-reactid=".hbspt-forms-0.0:$9.$method_of_id_.0.1:$No">Passport</option>
                     </select>
                   </div>
                 </div>
@@ -296,7 +296,7 @@ method_of_id
           console.log("changed")
 
           $("select option:selected").each(function() {
-            if ($(this).attr("value") == "0") {
+            if ($(this).attr("value") == "ID") {
               $("#id-div").show();
               $('#upfile').attr('required', 'required');
               $('#ssn').attr('required', 'required');
@@ -304,7 +304,7 @@ method_of_id
               $("#passport-div").hide();
               $('#passport-upfile').removeAttr('required')
             }
-            if ($(this).attr("value") == "1") {
+            if ($(this).attr("value") == "Passport") {
               $("#passport-div").show();
               $('#passport-upfile').attr('required', 'required');
 
