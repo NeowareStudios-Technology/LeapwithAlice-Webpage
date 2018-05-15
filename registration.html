@@ -245,7 +245,7 @@
 
         // executed after all files are complete
         var formData = new FormData();
-        formData.append("upfile[]", $("input[name*='upfile']").files[0]);
+        formData.append("upfile[]", document.getElementById('upfile').files[0]);
         formData.append("firstname", $("input[name*='firstname']").val().trim());
         formData.append("lastname", $("input[name*='lastname']").val().trim());
         formData.append("email", $("input[name*='email']").val().trim());
