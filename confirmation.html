@@ -96,26 +96,19 @@
       <!-- End Banner/Slider -->
 
       <!-- .header-partners  -->
-      <a href="#intro" class="scroll-down menu-link">SCROLL DOWN</a>
     </header>
 
     <!-- Start Section -->
-    <div class="section  nopb .section-bg-unique">
-      <div class="container" id="whitepaper">
-        <div class="row text-center">
-          <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2">
-            <div class="section-head-s2">
+
 
          <!-- Start Section -->
-    <div class="section section-pad status-section section-bg" id="token">
-      <div class="container">
-      
+   <div class="section section-pad status-section confirm-section" id="token">
 
         <div class="row text-center">
           <div class="col-md-6">
             <div class="single-chart light animated" data-animate="fadeInUp" data-delay=".3">
               <div>
-                <img src="images/chart-lavendar-a.png" alt="chart">
+                <img src="images/Confirmation_Page_Asset2.png" alt="chart">
               </div>
 
             </div>
@@ -125,7 +118,7 @@
           <div class="col-md-6">
             <div class="single-chart light animated" data-animate="fadeInUp" data-delay=".3">
               <div>
-                <img src="images/chart-lavendar-b.png" alt="chart">
+                <img src="images/Confirmation_Page_Asset1.png" alt="chart">
               </div>
 
             </div>
@@ -136,22 +129,12 @@
 
       </div>
       <!-- .container  -->
-    </div>
-    <!-- End Section -->
 
-              <div id="JUMIOIFRAME" class="animated header-image-alt" data-animate="fadeInRight" data-delay=".8"></div>
 
-            </div>
-          </div>
-          <!-- .col  -->
-        </div>
-        <div class="gaps size-2x d-none d-md-block"></div>
-        <br><br>
 
-      </div>
-      <!-- .conatiner  -->
-    </div>
-    <!-- Start Section -->
+
+     
+      <!-- .conatiner  -->  <!-- Start Section -->
 
     <div class="section footer-scetion footer-particle section-pad-sm section-bg-dark">
       <div class="container">
@@ -226,42 +209,7 @@
     <script src="assets/js/script.js?ver=120"></script>
     <script src="assets/js/selection.json"></script>
 
-    <script type="text/javascript" src="https://netverify.com/widget/jumio-verify/2.0/iframe-script.js">
-    </script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        var token = ""
-        console.log("ready!");
-        // Load Form
-        // Make AJAX call to get Token
-        $.ajax({
-          type: "POST",
-          headers: {
-            // 'Authorization': 'Basic',
-            // 'Content-Length': 'xxx',
-            // 'User-Agent': 'YOURCOMPANYNAME YOURAPPLICATIONNAME/x.x.x',
-            // 'Accept': 'application/json',
-            // 'Content-Type': 'application/json'
-          },
-          beforeSend: function(request) {
-            request.setRequestHeader("User-Agent", "YOURCOMPANYNAME YOURAPPLICATIONNAME/x.x.x");
-            request.setRequestHeader("Authorization", "Basic");
-            request.setRequestHeader("Accept", "application/json");
-            request.setRequestHeader("Content-Type", "application/json");
-          },
-          url: "https://netverify.com/api/netverify/v2/initiateNetverify",
-          success: function(result) {
-            console.log(result);
-            // Update Token for Verification Request
-            /*<![CDATA[*/
-            JumioClient.setVars({
-              authorizationToken: ""
-            }).initVerify("JUMIOIFRAME");
-            /*]]>*/
-          }
-        });
-      });
-    </script>
+
 
 
 
