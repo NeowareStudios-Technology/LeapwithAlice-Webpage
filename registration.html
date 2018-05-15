@@ -257,11 +257,6 @@
       $('#registerSubmit').on('click', function(e) {
             e.preventDefault();
 
-            // console.log($("input[name*='where_did_you_learn_about_leap_with_alice_llc']").val().trim())
-
-            // executed after all files are complete
-
-
             var formData = new FormData();
 
             var ins = document.getElementById('upfile').files.length;
@@ -269,7 +264,6 @@
               formData.append("upfile[]", document.getElementById('upfile').files[x]);
               console.log(document.getElementById('upfile').files[x])
             }
-            // formData.append("upfile", document.getElementById('upfile').files);
 
             formData.append("firstname", $("input[name*='firstname']").val().trim());
             formData.append("lastname", $("input[name*='lastname']").val().trim());
