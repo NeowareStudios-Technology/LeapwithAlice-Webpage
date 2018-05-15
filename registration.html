@@ -255,54 +255,54 @@
       });
 
       $('#registerSubmit').on('click', function(e) {
-            e.preventDefault();
+        e.preventDefault();
 
-            var formData = new FormData();
+        var formData = new FormData();
 
-            var ins = document.getElementById('upfile').files.length;
-            for (var x = 0; x < ins; x++) {
-              formData.append("upfile[]", document.getElementById('upfile').files[x]);
-              console.log(document.getElementById('upfile').files[x])
-            }
+        var ins = document.getElementById('upfile').files.length;
+        for (var x = 0; x < ins; x++) {
+          formData.append("upfile[]", document.getElementById('upfile').files[x]);
+          console.log(document.getElementById('upfile').files[x])
+        }
 
-            formData.append("firstname", $("input[name*='firstname']").val().trim());
-            formData.append("lastname", $("input[name*='lastname']").val().trim());
-            formData.append("email", $("input[name*='email']").val().trim());
+        formData.append("firstname", $("input[name*='firstname']").val().trim());
+        formData.append("lastname", $("input[name*='lastname']").val().trim());
+        formData.append("email", $("input[name*='email']").val().trim());
 
-            formData.append("unique_telegram_handle_optional", $("input[name*='unique_telegram_handle_optional']").val().trim());
+        formData.append("unique_telegram_handle_optional", $("input[name*='unique_telegram_handle_optional']").val().trim());
 
-            formData.append("phone", $("input[name*='phone']").val().trim());
+        formData.append("phone", $("input[name*='phone']").val().trim());
 
-            formData.append("where_did_you_learn_about_leap_with_alice_llc", $("textarea[name*='where_did_you_learn_about_leap_with_alice_llc']").val().trim());
+        formData.append("where_did_you_learn_about_leap_with_alice_llc", $("textarea[name*='where_did_you_learn_about_leap_with_alice_llc']").val().trim());
 
-            formData.append("introduce_yourself_or_add_anything_else_you_would_like_us_to_know", $("textarea[name*='introduce_yourself_or_add_anything_else_you_would_like_us_to_know']").val().trim());
-            formData.append("address", $("input[name*='address']").val().trim());
+        formData.append("introduce_yourself_or_add_anything_else_you_would_like_us_to_know", $("textarea[name*='introduce_yourself_or_add_anything_else_you_would_like_us_to_know']").val().trim());
+        formData.append("address", $("input[name*='address']").val().trim());
 
-            formData.append("state", $("input[name*='state']").val().trim());
+        formData.append("state", $("input[name*='state']").val().trim());
 
-            formData.append("method_of_contribution", $("option[name*='method_of_contribution']").val();
+        formData.append("method_of_contribution", $("option[name*='method_of_contribution']").val());
 
-                formData.append("how_much", $("option[name*='how_much']").val();
+        formData.append("how_much", $("option[name*='how_much']").val());
 
-                  formData.append("are_you_an_accredited_investor", $("option[name*='are_you_an_accredited_investor']").val();
+        formData.append("are_you_an_accredited_investor", $("option[name*='are_you_an_accredited_investor']").val());
 
-                    $.ajax({
-                      url: 'https://twg-lwa-register.herokuapp.com/contact.php',
-                      type: 'POST',
-                      data: formData,
-                      async: true,
-                      success: function(result) {
-                        console.log(result);
-                        window.location = "https://leapwithalice.io/confirmation.html";
-                      },
-                      cache: false,
-                      contentType: false,
-                      processData: false
-                    }); // End AJAX
+        $.ajax({
+          url: 'https://twg-lwa-register.herokuapp.com/contact.php',
+          type: 'POST',
+          data: formData,
+          async: true,
+          success: function(result) {
+            console.log(result);
+            window.location = "https://leapwithalice.io/confirmation.html";
+          },
+          cache: false,
+          contentType: false,
+          processData: false
+        }); // End AJAX
 
-                    return false;
+        return false;
 
-                  });
+      });
     </script>
 
 </body>
