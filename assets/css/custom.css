@@ -71,3 +71,19 @@
 #passport-div{
   display:none;
 }
+
+.num{
+	position:relative;
+}
+
+.ssno-number{
+	position: absolute;
+}
+
+.ssno-value{
+	position: absolute;
+  top: 0;
+	color: transparent !important;
+	background: transparent;
+	border:none;
+}

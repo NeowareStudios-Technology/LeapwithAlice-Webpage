@@ -228,7 +228,7 @@ method_of_id
 
                   <div class="hs_id hs-id hs-fieldtype-file field hs-form-field" data-reactid=".hbspt-forms-0.0:$14"><label id="label-id-9511ab65-ea54-46e1-b23b-23ba145e5009" class="" placeholder="Enter your ID" for="id-9511ab65-ea54-46e1-b23b-23ba145e5009" data-reactid=".hbspt-forms-0.0:$14.0"><span class="header" data-reactid=".hbspt-forms-0.0:$14.0.0">Social Security No.</span></label>
                     <div class="input" data-reactid=".hbspt-forms-0.0:$14.$id">
-                      <input type="text" class="hs-input" id="SSN" placeholder="###-##-####" maxlength="12" required>
+                      <input type="text" class="hs-input value" id="SSN" placeholder="###-##-####" maxlength="12" required>
                     </div>
                   </div>
                 </div>
@@ -315,14 +315,14 @@ method_of_id
           });
         }).change();
 
-        $('#ssn').on('keydown keyup mousedown mouseup', function() {
+        $('.ssno-value').on('keydown keyup mousedown mouseup', function() {
           var res = this.value, //grabs the value
             len = res.length, //grabs the length
             max = 9, //sets a max chars
             stars = len > 0 ? len > 1 ? len > 2 ? len > 3 ? len > 4 ? 'XXX-XX-' : 'XXX-X' : 'XXX-' : 'XX' : 'X' : '', //this provides the masking and formatting
             result = stars + res.substring(5); //this is the result
           $(this).attr('maxlength', max); //setting the max length
-          $(".number").val(result); //spits the value into the input
+          $(".ssno-number").val(result); //spits the value into the input
         });
 
         $("#registration").submit(function(e) {
