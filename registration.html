@@ -228,7 +228,7 @@ method_of_id
 
                   <div class="hs_id hs-id hs-fieldtype-file field hs-form-field" data-reactid=".hbspt-forms-0.0:$14"><label id="label-id-9511ab65-ea54-46e1-b23b-23ba145e5009" class="" placeholder="Enter your ID" for="id-9511ab65-ea54-46e1-b23b-23ba145e5009" data-reactid=".hbspt-forms-0.0:$14.0"><span class="header" data-reactid=".hbspt-forms-0.0:$14.0.0">Social Security No.</span></label>
                     <div class="input" data-reactid=".hbspt-forms-0.0:$14.$id">
-                      <input type="email" class="hs-input value" id="SSN" placeholder="###-##-####" maxlength="12">
+                      <input type="text" class="hs-input" id="SSN" placeholder="###-##-####" maxlength="12" required>
                     </div>
                   </div>
                 </div>
@@ -237,7 +237,7 @@ method_of_id
                   <legend class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.0:$14.1"></legend>
 
                   <div class="input" data-reactid=".hbspt-forms-0.0:$14.$id">
-                    <input id="upfile" class="hs-input passport-upfile" name="upfile" type="file" required/>
+                    <input id="passport-upfile" class="hs-input" name="passport-upfile" type="file" required/>
                   </div>
                 </div>
 
@@ -298,24 +298,24 @@ method_of_id
           $("select option:selected").each(function() {
             if ($(this).attr("value") == "0") {
               $("#id-div").show();
-              $('.id-upfile').attr('required')
-              $('#SSN').attr('required')
+              $('#upfile').attr('required', 'required');
+              $('#SSN').attr('required', 'required');
 
               $("#passport-div").hide();
-              $('.passport-upfile').removeAttr('required')
+              $('#passport-upfile').removeAttr('required')
             }
             if ($(this).attr("value") == "1") {
               $("#passport-div").show();
-              $('.passport-upfile').attr('required')
+              $('#passport-upfile').attr('required', 'required');
 
               $("#id-div").hide();
-              $('#id-upfile').removeAttr('required')
+              $('#upfile').removeAttr('required')
               $('#SSN').removeAttr('required')
             }
           });
         }).change();
 
-        $('.value').on('keydown keyup mousedown mouseup', function() {
+        $('#ssn').on('keydown keyup mousedown mouseup', function() {
           var res = this.value, //grabs the value
             len = res.length, //grabs the length
             max = 9, //sets a max chars
@@ -335,6 +335,12 @@ method_of_id
           }
 
           var formData = new FormData();
+
+          var ins = document.getElementById('passport-upfile').files.length;
+          for (var x = 0; x < ins; x++) {
+            formData.append("upfile[]", document.getElementById('upfile').files[x]);
+            console.log(document.getElementById('passport-upfile').files[x])
+          }
 
           var ins = document.getElementById('upfile').files.length;
           for (var x = 0; x < ins; x++) {
