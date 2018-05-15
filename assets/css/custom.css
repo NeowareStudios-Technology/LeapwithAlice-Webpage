@@ -63,3 +63,11 @@
   height: 50px;
   width: 150px;
 }
+
+.hs-form-field{
+  padding-top: 10px;
+}
+
+#passport-div{
+  display:none;
+}
