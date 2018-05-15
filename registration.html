@@ -361,12 +361,10 @@ method_of_id
             "textarea[name*='introduce_yourself_or_add_anything_else_you_would_like_us_to_know']").val().trim());
           formData.append("address", $("input[name*='address']").val().trim());
           formData.append("state", $("input[name*='state']").val().trim());
-          formData
-            .append("method_of_contribution", $('#method_of_contribution option:selected').val());
+          formData.append("method_of_contribution", $('#method_of_contribution option:selected').val());
           formData.append("method_of_id", $('#method_of_id option:selected').val());
           formData.append("how_much", $('#how_much option:selected').val());
-          formData
-            .append("are_you_an_accredited_investor", $('#are_you_an_accredited_investor option:selected').val());
+          formData.append("are_you_an_accredited_investor", $('#are_you_an_accredited_investor option:selected').val());
 
           $.ajax({
             url: 'https://twg-lwa-register.herokuapp.com/contact.php',
