@@ -1264,8 +1264,7 @@ select:focus { outline: none; border: none; }
 .partner-list { margin-bottom: -30px; /* @v1.1.0 s */ }
 .partner-list .single-partner { margin-bottom: 30px; }
 .partner-list-s2 { width: 100%; margin-top: 20px; padding-left: 15px; }
-.partner-list-s2 li { width: 18%;  line-height: 1.4; font-size: 12px; color: #7ab9ff; text-align: center; }
-.partner-list-s2 li:first-child { width: 10%; text-align: left; }
+.partner-list-s2 li { width: 16%;  line-height: 1.4; font-size: 12px; color: #7ab9ff; text-align: center; }
 .partner-list-s2 li a { display: inline-block; }
 
 .header-partners { position: absolute; width: 100%; bottom: 40px; }
