@@ -255,6 +255,11 @@ a:hover, a:focus, a:active { color: #343459; }
 
 .theme-lavendar .btn { background: #0043EC; }
 .theme-lavendar .btn:hover { background: #fff; color: #0043EC; }
+
+.theme-lavendar .btn-demo { background: #fff; color: #0043EC; }
+.theme-lavendar .btn-demo:hover { background: #0043EC; color: #fff; }
+
+
 .theme-lavendar .btn.btn-plane { background: #fff; }
 .theme-lavendar .btn.btn-plane:hover { background: #0043EC; }
 .theme-lavendar .btn.btn-simple .fa { color: #0043EC; }

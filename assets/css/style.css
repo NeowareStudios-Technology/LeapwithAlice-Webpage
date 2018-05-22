@@ -990,6 +990,13 @@ select:focus { outline: none; border: none; }
   .btns { margin: 0 -3px; }
   .btns li { margin: 10px 3px; } }
 /*! 07.0 - FEATURES SECTION */
+
+
+.demo-signup ul {
+    width: 70%;
+    margin: auto;
+}
+
 .text-block { /* @v1.1.0 s */ }
 .text-block p:not(.lead) { color: #a2b4d2; }
 .text-block ul:not(.btns) { margin-bottom: 20px; }
