@@ -1825,13 +1825,16 @@ select:focus { outline: none; border: none; }
 .section-bg-app, [class*=section-bg-app] { background: linear-gradient(#002df3, #0014A5); }
 .section-bg-value2, [class*=section-bg-value2] { background: linear-gradient(#0014A5, #0014A5); } 
 .section-bg-team, [class*=section-bg-team] { background: linear-gradient(#0014A5, #0014A5); }
-.section-bg-faq, [class*=section-bg-faq] { background: linear-gradient(#0014A5, #0045EE); }
+.section-bg-faq, [class*=section-bg-faq] { background: linear-gradient(#003EE5, #000E9D); }
 .section-bg-contact, [class*=section-bg-contact] { background: linear-gradient(#0045EE, #000f9d); }
 .section-bg-bubbles, [class*=section-bg-bubbles] { background: linear-gradient(#000f9d, #0045EE); }
 .howleap, [class*=howleap] { background: linear-gradient(#000f9d, #0045EE); color: white; }
 .section-bg-light h1, .section-bg-light h2, .section-bg-light h3, .section-bg-light h4, .section-bg-light h5, .section-bg-light h6, [class*=section-bg-light] h1, [class*=section-bg-light] h2, [class*=section-bg-light] h3, [class*=section-bg-light] h4, [class*=section-bg-light] h5, [class*=section-bg-light] h6 { color: #D2DFFF; }
 .section-bg-light .small-heading, [class*=section-bg-light] .small-heading {  letter-spacing: .2em; color: rgba(93, 70, 232, 0.5); }
-
+.faq-image {margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 10px;}
 .section-bg-lavendar { background: #0043EC; }
 .section-bg-lavendar h1, .section-bg-lavendar h2, .section-bg-lavendar h3, .section-bg-lavendar h4, .section-bg-lavendar h5, .section-bg-lavendar h6, .section-bg-lavendar p { color: #fff; }
 .section-bg-lavendar .section-head-s3 .section-title:before { background: #ff9259; }
