@@ -1826,7 +1826,7 @@ select:focus { outline: none; border: none; }
 .section-bg-value2, [class*=section-bg-value2] { background: linear-gradient(#0014A5, #0014A5); } 
 .section-bg-team, [class*=section-bg-team] { background: linear-gradient(#0014A5, #0014A5); }
 .section-bg-faq, [class*=section-bg-faq] { background: linear-gradient(#003EE5, #000E9D); }
-.section-bg-contact, [class*=section-bg-contact] { background: linear-gradient(#0045EE, #000f9d); }
+.section-bg-contact, [class*=section-bg-contact] { background: linear-gradient(#0015A5, #000f9d); }
 .section-bg-bubbles, [class*=section-bg-bubbles] { background: linear-gradient(#000f9d, #0045EE); }
 .howleap, [class*=howleap] { background: linear-gradient(#000f9d, #0045EE); color: white; }
 .section-bg-light h1, .section-bg-light h2, .section-bg-light h3, .section-bg-light h4, .section-bg-light h5, .section-bg-light h6, [class*=section-bg-light] h1, [class*=section-bg-light] h2, [class*=section-bg-light] h3, [class*=section-bg-light] h4, [class*=section-bg-light] h5, [class*=section-bg-light] h6 { color: #D2DFFF; }
