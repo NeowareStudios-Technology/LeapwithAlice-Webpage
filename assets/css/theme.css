@@ -275,7 +275,8 @@ a:hover, a:focus, a:active { color: #343459; }
 .theme-lavendar .site-header.has-fixed .btn.btn-white:hover { background: #fff; color: #0043EC; } /* ***Color of navbar button hovered (After Scroll)*/
 .theme-lavendar .site-header.has-fixed .btn.btn-outline { border-color: #fff; color: #fff; }
 .theme-lavendar .navbar-toggler { background: #003EE4; }  /* ***Background: Color of Navbar Hamburger Menu; */
-.theme-lavendar .into-section {background: #0045EE; color: #D2DFFF; }
+.theme-lavendar .into-section  { background: linear-gradient(#0018AA, #0044EE); color: #D2DFFF; } 
+.theme-lavendar .coming-section  { background: linear-gradient(#0044EE, #0044EE); color: #D2DFFF; } 
 .theme-lavendar .confirm-section , [class*=confirm-section] { background: linear-gradient(#0045EE, #000E9D); }
 .section-bg-light .small-heading, [class*=section-bg-light] .small-heading { color: rgba(93, 70, 232, 0.5); }
 
