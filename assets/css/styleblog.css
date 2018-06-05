@@ -1759,7 +1759,8 @@ select:focus { outline: none; border: none; }
 .theme-lavendar .loader-section { background: #fcfcfc; }
 .theme-lavendar .btn { background: #0043EC; }
 .theme-lavendar .btn img { transform: translateY(50%); }
-.theme-lavendar .btn:hover { background: #ff9259; }
+.theme-lavendar .btn:hover { background: #fff; }
+.theme-lavendar .btn:hover { color: #0043EC; }
 .theme-lavendar .btn:before { display: none; }
 .theme-lavendar .btn.btn-lg { padding: 5px 40px; border-radius: 28px; }
 .theme-lavendar .btn.btn-plane { background: #8484a4; }
