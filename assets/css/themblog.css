@@ -4,6 +4,11 @@ Preset   :	Default
 Version	 :	1.2.1
 Updated	 :	04.28.2018
 */
+
+
+h4 {color: black;}
+
+
 h1.color-secondary, h2.color-secondary, h3.color-secondary, h4.color-secondary, h5.color-secondary, h6.color-secondary, .h1.color-secondary, .h2.color-secondary, .h3.color-secondary, .h4.color-secondary, .h5.color-secondary, .h6.color-secondary { color: #7a0fff; }
 h1.color-primary, h2.color-primary, h3.color-primary, h4.color-primary, h5.color-primary, h6.color-primary, .h1.color-primary, .h2.color-primary, .h3.color-primary, .h4.color-primary, .h5.color-primary, .h6.color-primary { color: #46bdf4; }
 
