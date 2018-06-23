@@ -1987,6 +1987,8 @@ select:focus {
         left: 33%;
         bottom: 30%; }
 
+
+
   .theme-light .banner.banner-curb.banner-particle, .banner.banner-curb.banner-particle {
     background-size: 150%,75%,75%,auto;
     background-position: bottom center,-65% 30%,165% 60%,0 0; } }
@@ -6730,4 +6732,8 @@ select:focus {
 
   .subscription-form .input-round {
     text-align: center; } }
+
+header-image-video {
+ padding: 70px;
+ }
 /** END */
