@@ -608,6 +608,33 @@ hr, .hr {
   .section-pad.section-fix {
     margin-bottom: -30px; }
 
+
+
+.section-pad-lwa {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .section-pad-lwa-xs {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .section-pad-lwa-sm {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+  .section-pad-lwa-md {
+    padding-top: 90px;
+    padding-bottom: 90px; }
+  .section-pad-lwa-lg {
+    padding-top: 180px;
+    padding-bottom: 180px; }
+  .section-pad-lwa.nopd {
+    padding-top: 0;
+    padding-bottom: 0; }
+  .section-pad-lwa.nopb {
+    padding-bottom: 0; }
+  .section-pad-lwa.nopt {
+    padding-top: 0; }
+  .section-pad-lwa.section-fix {
+    margin-bottom: -30px; }
+
 .section-overup[class*="section-pad"] {
   margin-top: -90px;
   padding-top: 0; }
@@ -2530,11 +2557,11 @@ select:focus {
 .section-bg-hubspot , [class*=section-bg-hubspot] { background: #fff; }
 .section-bg-form, [class*=section-bg-form] { background: linear-gradient(#0045EE, #000F9D); }
 .section-bg-free, [class*=section-bg-free] { background: linear-gradient(#0043EE, #0043EE); }
-.section-bg-media, [class*=section-bg-media] { background: linear-gradient(#0018f8, #0018f8); }
+.section-bg-media, [class*=section-bg-media] { background: linear-gradient(#0543EE, #0018f8); }
 .section-bg-ucf, [class*=section-bg-ucf] { background: linear-gradient(#0018f8, #0014A4); }
 .section-bg-token, [class*=section-bg-token] { background: linear-gradient(#0014A4, #0014A4); }
 .section-bg-value, [class*=section-bg-value] { background: linear-gradient(#0014A4, #002df3); }
-.section-bg-roadmap, [class*=section-bg-roadmap] { background: linear-gradient(#002df3, #002df3); }
+.section-bg-roadmap, [class*=section-bg-roadmap] { background: linear-gradient(#0213A4, #0014A5); }
 .section-bg-app, [class*=section-bg-app] { background: linear-gradient(#002df3, #0014A5); }
 .section-bg-value2, [class*=section-bg-value2] { background: linear-gradient(#0014A5, #0014A5); } 
 .section-bg-team, [class*=section-bg-team] { background: linear-gradient(#0014A5, #0014A5); }
@@ -2548,8 +2575,9 @@ select:focus {
     width: 50%;
     border: 3px solid white;
     padding: 10px;}
-
-
+.section-bg-AliceSuite, [class*=section-bg-AliceSuite] { background: #0543EE;}
+.section-bg-demo, [class*=section-bg-demo] { background: #0543EE;}
+.section-bg-blockchain, [class*=section-bg-blockchain] { background: #0213A4;}
 
 
 
@@ -5262,7 +5290,7 @@ select:focus {
     background: rgba(132, 132, 164, 0.3); }
   .roadmap-item h6 {
     text-transform: uppercase;
-    color: #8484a4;
+    color: #fff;
     position: relative;
     padding-bottom: 120px; }
     .roadmap-item h6:before, .roadmap-item h6:after {
@@ -6483,7 +6511,7 @@ select:focus {
 .problem-list {
   padding: 30px 65px;
   border-radius: 15px;
-  background: rgba(0, 5, 55, 0.78); }
+  background: #0543EC; }
 .problem-item {
   padding: 32px 0; }
   .problem-item ul li {

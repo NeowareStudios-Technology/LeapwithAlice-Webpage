@@ -256,8 +256,8 @@ a:hover, a:focus, a:active { color: #343459; }
 .theme-lavendar .btn { background: #0043EC; }
 .theme-lavendar .btn:hover { background: #fff; color: #0043EC; }
 
-.theme-lavendar .btn-demo { background: #fff; color: #0043EC; }
-.theme-lavendar .btn-demo:hover { background: #0043EC; color: #fff; }
+.theme-lavendar .btn-demo { background: #0043EC; color: #fff; border: 1px solid #fff;}
+.theme-lavendar .btn-demo:hover { background: #fff; color: #0043EC; }
 
 
 .theme-lavendar .btn.btn-plane { background: #fff; }
@@ -271,7 +271,7 @@ a:hover, a:focus, a:active { color: #343459; }
 .theme-lavendar .btn.btn-outline:after { background: transparent; }
 .theme-lavendar .owl-dot { background: white; }
 .theme-lavendar .owl-dot.active { background: white; }
-.theme-lavendar .site-header.has-fixed .btn.btn-white { background: #0043EC; } /* ***Color of navbar button (After Scroll) */
+.theme-lavendar .site-header.has-fixed .btn.btn-white { background: #0043EC; border: 1px solid #fff;} /* ***Color of navbar button (After Scroll) */
 .theme-lavendar .site-header.has-fixed .btn.btn-white:hover { background: #fff; color: #0043EC; } /* ***Color of navbar button hovered (After Scroll)*/
 .theme-lavendar .site-header.has-fixed .btn.btn-outline { border-color: #fff; color: #fff; }
 .theme-lavendar .navbar-toggler { background: #003EE4; }  /* ***Background: Color of Navbar Hamburger Menu; */
