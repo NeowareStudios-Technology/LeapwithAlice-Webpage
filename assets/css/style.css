@@ -6542,7 +6542,10 @@ select:focus {
 .solution-list {
   margin-bottom: -75px; }
 .solution-item {
-  padding-bottom: 75px; }
+  padding-bottom: 5px; 
+
+}
+
 .solution-icon {
   width: 65px;
   margin: 0 auto 23px; }
