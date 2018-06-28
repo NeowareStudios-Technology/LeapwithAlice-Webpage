@@ -578,7 +578,7 @@ hr, .hr {
   text-align: left; }
 
 .ucap {
-  text-transform: uppercase; }
+/*  text-transform: uppercase;*/ }
 
 .cap {
   text-transform: capitalize; }
@@ -1098,8 +1098,8 @@ hr, .hr {
   /* @v1.1.0 e */ }
   .section-head .section-title {
     margin-bottom: 50px;
-    text-transform: uppercase;
-    position: relative;
+/*    text-transform: uppercase;
+*/    position: relative;
     z-index: 2; }
     .section-head .section-title span, .section-head .section-title:before {
       position: absolute;
@@ -1135,8 +1135,8 @@ hr, .hr {
       background: #7ab9ff; }
     .section-head-s2 .heading-xs {
       position: relative;
-      text-transform: uppercase;
-      color: #7ab9ff;
+/*      text-transform: uppercase;
+*/      color: #7ab9ff;
       letter-spacing: 0.2em;
       z-index: 2; }
     .section-head-s2 .section-title {
@@ -1205,7 +1205,7 @@ hr, .hr {
     width: 300px; }
 
 .section-title-sm {
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   letter-spacing: 0.3em; }
 
 .section-title-md {
@@ -1445,7 +1445,7 @@ hr, .hr {
     color: #fff;
     font-weight: 400;
     font-size: 18px;
-    text-transform: uppercase;
+  /*  text-transform: uppercase;*/
     border: none;
     border-bottom: 2px solid transparent;
     margin-bottom: -2px; }
@@ -1922,7 +1922,7 @@ select:focus {
       background-size: 50%, cover; }
   .page-heading {
     padding: 80px 0 40px;
-    text-transform: uppercase; }
+  /*  text-transform: uppercase;*/ }
   .page-head-image {
     position: absolute;
     max-width: 550px;
@@ -2107,7 +2107,7 @@ select:focus {
   font-weight: 600;
   padding: 0 34px;
   text-align: center;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   color: #fff;
   min-width: 160px;
   max-width: 100%;
@@ -2219,7 +2219,7 @@ select:focus {
       color: #46bdf4; }
   .btn.btn-more {
     background: transparent;
-    text-transform: uppercase;
+  /*  text-transform: uppercase;*/
     font-weight: 500;
     letter-spacing: 0.2em;
     color: #46bdf4;
@@ -2447,7 +2447,7 @@ select:focus {
         top: 13px;
         left: 0; }
   .text-block .heading-xs {
-    text-transform: uppercase; }
+  /*  text-transform: uppercase;*/ }
   .io-azure .text-block p:not(.lead) {
     color: #7ab9ff; }
   .io-azure .text-block ul:not(.btns) li {
@@ -2610,7 +2610,7 @@ select:focus {
       border-radius: 4px;
       background-image: linear-gradient(to right, #46bdf4 0%, #7a0fff 100%); }
   .countdown-box h6 {
-    text-transform: uppercase; }
+  /*  text-transform: uppercase;*/ }
   .countdown-box .token-countdown {
     padding-bottom: 33px; }
     .countdown-box .token-countdown .countdown-time {
@@ -2633,7 +2633,7 @@ select:focus {
       color: #46bdf4;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+    /*  text-transform: uppercase;*/
       display: block;
       line-height: 1; }
   .countdown-box .icon-list {
@@ -2763,7 +2763,7 @@ select:focus {
   font-size: .75em;
   transform: translateX(-50%);
   top: -35px;
-  text-transform: uppercase; }
+/*  text-transform: uppercase;*/ }
   .token-status-point:after {
     position: absolute;
     left: 50%;
@@ -3366,7 +3366,7 @@ select:focus {
     padding-left: 15px; }
     .partner-list-s2 li {
       width: 18%;
-      text-transform: uppercase;
+    /*  text-transform: uppercase;*/
       line-height: 1.4;
       font-size: 12px;
       color: #7ab9ff;
@@ -4466,7 +4466,7 @@ select:focus {
     display: inline-block;
     margin: 0 10px;
     font-size: .85em;
-    text-transform: uppercase;
+  /*  text-transform: uppercase;*/
     position: relative;
     color: #7a0fff; }
     .blog-meta li span {
@@ -4610,7 +4610,7 @@ select:focus {
     margin-bottom: 5px; }
 .comment-time {
   font-size: .8em;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   color: #46bdf4;
   margin-bottom: 8px; }
 .comment-reply {
@@ -4713,7 +4713,7 @@ select:focus {
 .sidebar-widget {
   margin-bottom: 50px; }
   .sidebar-widget-title {
-    text-transform: uppercase;
+  /*  text-transform: uppercase;*/
     margin-bottom: 20px; }
   .sidebar-widget.category ul {
     margin: -7px 0; }
@@ -5005,7 +5005,7 @@ select:focus {
   .section-bg-light h1, .section-bg-light h2, .section-bg-light h3, .section-bg-light h4, .section-bg-light h5, .section-bg-light h6, [class*=section-bg-light] h1, [class*=section-bg-light] h2, [class*=section-bg-light] h3, [class*=section-bg-light] h4, [class*=section-bg-light] h5, [class*=section-bg-light] h6 {
     color: #38385f; }
   .section-bg-light .small-heading, [class*=section-bg-light] .small-heading {
-    text-transform: uppercase;
+  /*  text-transform: uppercase;*/
     letter-spacing: .2em;
     color: rgba(93, 70, 232, 0.5); }
 
@@ -5046,7 +5046,7 @@ select:focus {
   border-radius: 15px;
   background: #ff9259;
   letter-spacing: .1em;
-  text-transform: uppercase; }
+/*  text-transform: uppercase;*/ }
 
 .shadow {
   box-shadow: 0 10px 40px rgba(93, 70, 232, 0.15); }
@@ -5149,7 +5149,7 @@ select:focus {
     .token-box .icon-list li {
       display: inline-block;
       font-size: .85em;
-      text-transform: uppercase;
+    /*  text-transform: uppercase;*/
       margin: 0 3px; }
       .token-box .icon-list li .fa {
         font-size: 1.15em;
@@ -5177,7 +5177,7 @@ select:focus {
       color: #8484a4;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+    /*  text-transform: uppercase;*/
       display: block;
       line-height: 1; }
 .token-details {
@@ -5187,7 +5187,7 @@ select:focus {
   .token-details li {
     color: #38385f;
     font-size: .8em;
-    text-transform: uppercase; }
+  /*  text-transform: uppercase;*/ }
 .token-bar {
   position: relative;
   height: 36px;
@@ -5289,7 +5289,7 @@ select:focus {
     width: 2px;
     background: rgba(132, 132, 164, 0.3); }
   .roadmap-item h6 {
-    text-transform: uppercase;
+  /*  text-transform: uppercase;*/
     color: #fff;
     position: relative;
     padding-bottom: 120px; }
@@ -5344,7 +5344,7 @@ select:focus {
     color: #fff;
     font-weight: 300; }
   .about-section-innr h6 {
-    text-transform: uppercase;
+  /*  text-transform: uppercase;*/
     letter-spacing: .1em;
     margin-bottom: 10px; }
 .about-shade {
@@ -5625,7 +5625,7 @@ select:focus {
   .team-described .team-name {
     font-weight: 400;
     margin-bottom: 7px;
-    text-transform: uppercase; }
+  /*  text-transform: uppercase;*/ }
   .team-described .team-info {
     width: 135px;
     margin-top: 40px;
@@ -5755,7 +5755,7 @@ select:focus {
   box-shadow: 0 0 60px rgba(93, 70, 232, 0.15); }
   .social-bar li {
     text-align: center;
-    text-transform: uppercase;
+  /*  text-transform: uppercase;*/
     color: #8484a4;
     flex-grow: 1;
     font-size: 14px;
@@ -5994,7 +5994,7 @@ select:focus {
     .theme-muscari .section-bg-light h1, .theme-muscari .section-bg-light h2, .theme-muscari .section-bg-light h3, .theme-muscari .section-bg-light h4, .theme-muscari .section-bg-light h5, .theme-muscari .section-bg-light h6, .theme-muscari [class*=section-bg-light] h1, .theme-muscari [class*=section-bg-light] h2, .theme-muscari [class*=section-bg-light] h3, .theme-muscari [class*=section-bg-light] h4, .theme-muscari [class*=section-bg-light] h5, .theme-muscari [class*=section-bg-light] h6 {
       color: #374574; }
     .theme-muscari .section-bg-light .small-heading, .theme-muscari [class*=section-bg-light] .small-heading {
-      text-transform: uppercase;
+    /*  text-transform: uppercase;*/
       letter-spacing: .2em;
       color: rgba(52, 85, 255, 0.5); }
   .theme-muscari .section-bg-muscari h1, .theme-muscari .section-bg-muscari h2, .theme-muscari .section-bg-muscari h3, .theme-muscari .section-bg-muscari h4, .theme-muscari .section-bg-muscari h5, .theme-muscari .section-bg-muscari h6, .theme-muscari .section-bg-muscari p {
@@ -6229,7 +6229,7 @@ select:focus {
   top: -20%; }
 
 .ex-sm-head {
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-weight: 500;
   font-size: .81em;
   line-height: 1.1;
@@ -6306,7 +6306,7 @@ select:focus {
   padding-right: 30px;
   border-radius: 6px; }
   .text-box h6 {
-    text-transform: uppercase;
+  /*  text-transform: uppercase;*/
     font-weight: 500;
     margin-bottom: 8px;
     color: #ffc123 !important; }
