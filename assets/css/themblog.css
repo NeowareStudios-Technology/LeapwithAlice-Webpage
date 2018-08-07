@@ -347,4 +347,12 @@ a:hover, a:focus, a:active { color: #343459; }
 .social-bar li a { color: #0043EC; }
 /*! Write Your OWN CODE HERE */
 
+.readmore-link:hover{
+  border: 1px solid blue;
+}
+
+.blog-texts{
+  margin-top: -5vh !important;
+  border-radius: 30px !important;
+}
 /*! END */
