@@ -72,7 +72,7 @@
 
 		$dropdown_menu.on("mouseleave",function(){
 			if ($win.width() > 991) {
-				$('.dropdown-menu', this).not('.in .dropdown-menu').stop().hide();
+				$('.dropdown-menu', this).not('.in .dropdown-menu').stop().fadeOut("fast");
 				$(this).removeClass('open');
 			}
 		});
@@ -324,6 +324,8 @@
 		// 	});
 		// 	selectRec.on('change', function() { $(this).valid(); });
 		// }
+
+
 		// SubscribeForm
 		if (subscribeForm.length > 0) {
 			var sf_results = subscribeForm.find('.subscribe-results');
