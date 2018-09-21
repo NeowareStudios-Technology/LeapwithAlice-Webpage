@@ -1,6 +1,6 @@
 {
-  "IcoMoonType": "selection",
-  "icons": [
+  IcoMoonType: "selection"
+  icons: [
     {
       "icon": {
         "paths": [
@@ -332,45 +332,45 @@
       "setId": 3,
       "iconIdx": 4
     }
-  ],
-  "height": 1024,
-  "metadata": {
-    "name": "Leap-With-Alice"
-  },
-  "preferences": {
-    "showGlyphs": true,
-    "showQuickUse": true,
-    "showQuickUse2": true,
-    "showSVGs": true,
-    "fontPref": {
-      "prefix": "alice-",
-      "metadata": {
-        "fontFamily": "Leap-With-Alice",
-        "majorVersion": 1,
-        "minorVersion": 0
-      },
-      "metrics": {
-        "emSize": 1024,
-        "baseline": 6.25,
-        "whitespace": 50
-      },
-      "embed": false,
-      "showSelector": false,
-      "showMetadata": false,
-      "showVersion": false,
-      "showMetrics": false
-    },
-    "imagePref": {
-      "prefix": "icon-",
-      "png": true,
-      "useClassSelector": true,
-      "color": 0,
-      "bgColor": 16777215,
-      "classSelector": ".icon"
-    },
-    "historySize": 50,
-    "showCodes": true,
-    "gridSize": 16,
-    "showLiga": true
+  ]
+  height: 1024
+  metadata: {
+    name: "Leap-With-Alice"
+  }
+  preferences: {
+    showGlyphs: true
+    showQuickUse: true
+    showQuickUse2: true
+    showSVGs: true
+    fontPref: {
+      prefix: "alice-"
+      metadata: {
+        fontFamily: "Leap-With-Alice"
+        majorVersion: 1
+        minorVersion: 0
+      }
+      metrics: {
+        emSize: 1024
+        baseline: 6.25
+        whitespace: 50
+      }
+      embed: false
+      showSelector: false
+      showMetadata: false
+      showVersion: false
+      showMetrics: false
+    }
+    imagePref: {
+      prefix: "icon-"
+      png: true
+      useClassSelector: true
+      color: 0
+      bgColor: 16777215
+      classSelector: ".icon"
+    }
+    historySize: 50
+    showCodes: true
+    gridSize: 16
+    showLiga: true
   }
 }
