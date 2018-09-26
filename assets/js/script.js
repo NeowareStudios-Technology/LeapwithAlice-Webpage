@@ -11,10 +11,10 @@ $(".overlay").show();
 			$(".overlay").hide();
 	});
 
-	$(".overlay").click(function() {
-		$investPopup.fadeOut();
-		$(".overlay").hide();
-	});
+	// $(".overlay").click(function() {
+	// 	$investPopup.fadeOut();
+	// 	$(".overlay").hide();
+	// });
 });
 
 
