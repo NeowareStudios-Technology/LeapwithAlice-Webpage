@@ -1,8 +1,8 @@
 /*!
 Template :	ICO Crypto @by Softnio
 Preset   :	Default
-Version	 :	2.0 * StartEngine Live
-Updated	 :	09.20.2018 * by LeapWithAlice
+Version	 :	1.2.1
+Updated	 :	04.28.2018
 */
 h1.color-secondary, h2.color-secondary, h3.color-secondary, h4.color-secondary, h5.color-secondary, h6.color-secondary, .h1.color-secondary, .h2.color-secondary, .h3.color-secondary, .h4.color-secondary, .h5.color-secondary, .h6.color-secondary { color: #7a0fff; }
 h1.color-primary, h2.color-primary, h3.color-primary, h4.color-primary, h5.color-primary, h6.color-primary, .h1.color-primary, .h2.color-primary, .h3.color-primary, .h4.color-primary, .h5.color-primary, .h6.color-primary { color: #46bdf4; }
@@ -275,8 +275,8 @@ a:hover, a:focus, a:active { color: #343459; }
 .theme-lavendar .site-header.has-fixed .btn.btn-white:hover { background: #fff; color: #0043EC; } /* ***Color of navbar button hovered (After Scroll)*/
 .theme-lavendar .site-header.has-fixed .btn.btn-outline { border-color: #fff; color: #fff; }
 .theme-lavendar .navbar-toggler { background: #003EE4; }  /* ***Background: Color of Navbar Hamburger Menu; */
-.theme-lavendar .into-section  { background: linear-gradient(#0018AA, #0044EE); color: #D2DFFF; }
-.theme-lavendar .coming-section  { background: linear-gradient(#0044EE, #0044EE); color: #D2DFFF; }
+.theme-lavendar .into-section  { background: linear-gradient(#0018AA, #0044EE); color: #D2DFFF; } 
+.theme-lavendar .coming-section  { background: linear-gradient(#0044EE, #0044EE); color: #D2DFFF; } 
 .theme-lavendar .confirm-section , [class*=confirm-section] { background: linear-gradient(#0045EE, #000E9D); }
 .section-bg-light .small-heading, [class*=section-bg-light] .small-heading { color: rgba(93, 70, 232, 0.5); }
 
@@ -388,7 +388,7 @@ a:hover, a:focus, a:active { color: #343459; }
     font-size: 2rem;
     vertical-align: -10px;
     // width:32px!important;
-  }
+  } 
 }
 .goog-te-menu-value span:nth-child(5) {
   display:none;
@@ -401,7 +401,7 @@ a:hover, a:focus, a:active { color: #343459; }
     content: "\E5C5";
     font-size: 1.5rem;
     vertical-align: -6px;
-  }
+  }  
 }
 
 .goog-te-gadget-icon {
@@ -414,137 +414,14 @@ a:hover, a:focus, a:active { color: #343459; }
     display: none;
 }
 
-/* ============ HIDE TOP BAR ============ */
-.goog-te-banner-frame.skiptranslate {display: none!important;}
+// ============ HIDE TOP BAR ============ 
+.goog-te-banner-frame.skiptranslate {display: none!important;} 
 body {top: 0px!important;}
 
-
-
- /* ================================== *\
-|
-|       CSS MEDIAQUERIES
-
-
-=>  iPhones:
-=============
-
-  /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Portrait
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
-
-/* Landscape
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 -----------
-
-/* Portrait and Landscape
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Portrait
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-}
-
-/* Landscape
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ -----------
-
-/* Portrait and Landscape
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-}
-
-/* Portrait
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-
-}
-
-/* Landscape
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-}
-
-/* Portrait
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-
-}
-
-/* Landscape
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-
-}
-
-
-
-
-
+/* ================================== *\
+    Mediaqueries
 \* ================================== */
-.goog-te-banner-frame.skiptranslate {display: none!important;}
+.goog-te-banner-frame.skiptranslate {display: none!important;} 
 body {top: 0px!important;}
 
 
@@ -585,7 +462,7 @@ body {top: 0px!important;}
 .box {
     background-color: transparent;
     padding: 35px;
-
+  
     text-align: center;
 }
 
@@ -628,156 +505,3 @@ input::placeholder {
 }
 
 /*! END */
-
-
-
-.btn-grow {
-  display: inline-block;
-  color: #14f;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
-.btn-grow:hover, .btn-grow:focus, .btn-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.investModal {
-  transition-property: opacity 1s, margin-left 1s;
-  transition-delay: 0.2s;
-  display: none;
-  height: auto;
-  margin-left: -37.5%;
-  min-height: 300px;
-  max-height: 100%;
-  min-width: 50%;
-  max-width: 100%;
-  background: #FFF;
-  z-index: 9999;
-
-}
-
-.popupContainer{
-  position: fixed;
-  left:50%;
-  top: 20%;
-  z-index: 9999;
-  width: auto;
-  height: auto;
-  min-height: 300px;
-  max-height: 100%;
-  min-width: 100px;
-  max-width: 700px;
-  padding: 40px 20px;
-}
-
-.popupContainer .wrapper{
-  position: relative;
-  left: -50%;
-  top: -20%;
-  /*popup-styles*/
-  background-color:#fff;
-  padding: 40px 20px;
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 600px) {
-/* Styles */
-.popupContainer{
-  position: fixed;
-  left: 20%;
-  top: 1%;
-  z-index: 9999;
-  width: auto;
-  height: auto;
-  min-height: 300px;
-  max-height: 100%;
-  min-width: 100px;
-  max-width: 350px;
-  padding: 40px 10px;
-}
-
-.investButton{
-  margin-left: auto;
-}
-
-.popupContainer .wrapper{
-  position: relative;
-  left: -20%;
-  top: -1%;
-
-  /*popup-styles*/
-  background-color:#fff;
-  padding: 30px 10px;
-  padding-right: 0 !important;
-  text-align: center;
-}
-
-}
-
-html{background-color:#aaa;}
-
-.popupContainer{
-  width: 100%;
-}
-
-
-.popup-text{
-  font-size: 24px;
-  font-weight: 800;
-  width: auto;
-}
-
-.fontCenter{
-  color: white;
-  font-size: 36px;
-  position: absolute;
-  z-index: 999999999;
-  margin: 0 auto;
-  margin-top: -45px;
-}
-
-.investClose:hover{
-  cursor: pointer;
-  opacity: 0.5;
-}
-
-.investButton:hover{
-  cursor: pointer;
-  opacity: 0.6;
-  border-radius: 50%;
-}
-
-a.investButton:hover + a.popup-text{
-  opacity: 0.5;
-}
-
-a.popup-text:hover  a.investButton{
-  opacity: 0.5 !important;
-}
-
-
-
-#popup-hr{
-  border: 2px solid black !important;
-}
-
-
-div.overlay {
-    position: absolute;
-    z-index: 900;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #fff;
-    opacity: 0.5;
-    filter: alpha(opacity = 50); /* required for opacity to work in IE */
-}
