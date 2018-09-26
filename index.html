@@ -24,6 +24,7 @@
 
   <!-- Vendor Bundle CSS -->
   <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=121">
+
   <!-- Custom styles for this template -->
   <link rel="stylesheet" href="assets/css/style.css?ver=121">
   <link rel="stylesheet" href="assets/css/theme.css?ver=121">
@@ -50,6 +51,9 @@
 <body class="theme-lavendar io-lavendar" data-spy="scroll" data-target="#mainnav" data-offset="80">
 
 
+  <div class="overlay">
+
+  </div>
 
 
 
@@ -139,7 +143,6 @@
                     <a class="dropdown-item wp-link whitepaper" target="_blank" href="Translated-Whitepapers/LWAWhitepaper-Arabic.pdf">Arabic</a>
                   </div>
             </li>
-
 			</ul>
         </div>
       </nav>
@@ -147,18 +150,35 @@
     <!-- End Navbar -->
 
 
+    <!-- Invest Popup-->
+    <div class="align-items-center popupContainer">
+     <div id="test-popup" class="animated wrapper col-sm-12" data-animate="fadeInLeft" data-delay="1.5">
+      <div class="container investCotainer">
 
+      <div class="col-sm-12 row ">
+          <a class="col-sm-5 investButton" aria-labelledby="Invest In our Company Button" href="https://www.startengine.com/leap-with-alice">
+           <img class="investingButton" src="./images/moneyButton.svg" />
+          </a>
+          <a href="https://www.startengine.com/leap-with-alice" class="text-dark col-sm-7 popup-text my-auto investClose">
+            <strong>Invest in our company</strong>
+          </a>
+      </div>
 
+      <hr style="border: 1px solid black !important;" class="popup-hr" />
 
+      <div class="col-sm-12 row">
+          <a class="col-sm-5 investButton investClose" aria-labelledby="Close Invest now pop up" href="#">
+           <img class="homeButton" src="./images/homeButton.svg" />
+          </a>
+          <a href="#" class="text-dark col-sm-7 popup-text my-auto investClose">
+            <strong>Continue to our website</strong>
+          </a>
+      </div>
 
-
-
-
-
-
-
-
-
+    </div>
+  </div>
+</div>
+  <!-- END POPUP -->
 
     <!-- Banner/Slider -->
     <div id="header" class="banner banner-curb banner-full d-flex align-items-center">
@@ -168,7 +188,6 @@
             <div class="col-lg-10">
 <!--               <div id="animatedHeader"></div>
  -->
-              <!-- OLD HEADER IMAGE-->
                <div class="header-image-lobelia animated" data-animate="fadeInUp" data-delay="1.25">
                   <a href="https://vimeo.com/276255859" class="video-play">
                       <img src="images/header-image.new.png" style="width:65%;height:65%;" alt="header">
@@ -179,10 +198,11 @@
                   <br>
             </div><!-- .col  -->
             <div class="col-lg-8">
-              <div class="header-txt">
+              <div class="header-txt animated" data-animate="fadeInUp" data-delay="1.2">
                 <!-- <h1 class="animated" data-animate="fadeInUp" data-delay="1.55">Powering Data for the new equity blockchain</h1>
                 <p class="lead color-primary animated" data-animate="fadeInUp" data-delay="1.65">Global decentralize network to buy & sell shares. <br class="d-none d-md-block"> Solving the Cryptocurrency Trust problems.</p> -->
-                <ul class="btns animated" data-animate="fadeInUp" data-delay="1.75">
+                <ul class="btns animated mt-2" data-animate="fadeInUp" data-delay="1.3">
+
                   <li><a href="#demo" class="btn nav-link menu-link">Demo Application</a></li>
                   <li><a href="https://t.me/LWAlice" target="_blank" class="btn"><i class="fa fa-telegram"></i>&nbsp; &nbsp;Join Alice Telegram</a></li>
                   <!-- Replacing with "Recieve News"
@@ -372,7 +392,7 @@
 
 <!--BEGIN AR SECTION-->
 
-<div class="section pt-3 status-section coming-section text-white" id="intro">
+<div class="section pt-3 status-section coming-section text-white" style="" id="intro">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 res-m-bttm animated" data-animate="fadeInUp" data-delay=".1">
@@ -647,7 +667,7 @@
               <div class="problem-info">
                 <h5 class="problem-title">Security</h5>
                 <ul>
-                  <li>Ensure execution of specified business logic for every transaction</li>
+                  <li>Ensure execution of specified business <br>logic for every transaction</li>
                   <li>Pure Transparency of Transactions</li>
                   <li>Immutable Distributed Ledger</li>
                 </ul>
@@ -662,7 +682,7 @@
               <div class="problem-info">
                 <h5 class="problem-title">Digital Rights Management</h5>
                 <ul>
-                  <li>Secure Ownership Rights</li>
+                  <li>Secure Ownership Rights &nbsp;</li>
                   <li>Controlled Access</li>
                   <li>Create Digitally Scarce Assets</li>
                 </ul>
@@ -1626,99 +1646,16 @@
           <!-- .col  -->
 
 
-           <!-- Begin Team Member -->
-           <div class="col-md-6 col-lg-4 col-xl-3 d-inline-flex justify-content-center">
-            <div class="team-circle animated" data-animate="fadeInUp" data-delay=".1">
-              <div class="team-photo">
-                <img src="images/RonnieForcier.png" alt="team">
-                <!--                  <a href="#team-profile-6" class="expand-trigger content-popup"></a>
-     --></div>
-              <div class="team-info">
-                <h5 class="team-name">Ronald<br>Forcier</h5>
-                <p>Web Developer</p>
-                <ul class="team-social">
-                </ul>
-              </div>
-
-              <!-- Start .team-profile  -->
-              <div id="team-profile-3" class="team-profile mfp-hide">
-                <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-                <div class="container-fluid">
-                  <div class="row no-mg">
-                    <div class="col-md-6">
-                      <div class="team-profile-photo">
-                        <img src="images/team-c-lg.jpg" alt="team" />
-                      </div>
-                    </div>
-                    <!-- .col  -->
-
-                    <div class="col-md-6">
-                      <div class="team-profile-info">
-                        <h3 class="name">Moises Teare</h3>
-                        <p class="sub-title">Blochain App Developer</p>
-                        <ul class="tpi-social">
-                          <li><a href="#"><em class="fa fa-facebook"></em></a></li>
-                          <li><a href="#"><em class="fa fa-twitter"></em></a></li>
-                          <li><a href="#"><em class="fa fa-google-plus"></em></a></li>
-                          <li><a href="#"><em class="fa fa-instagram"></em></a></li>
-                        </ul>
-                        <p>He is a great man to work Lorem ipsum dolor sit amet, consec tetur adipis icing elit. Simi lique, autem. </p>
-                        <p>Tenetur quos facere magnam volupt ates quas esse Sedrep ell endus mole stiae tates quas esse Sed repell endus molesti aela uda ntium quis quam iusto minima thanks.</p>
-                        <div class="skill-bars">
-                          <div class="single-skill-bar">
-                            <div class="row no-mg">
-                              <div class="col-8 no-pd"><span class="skill-title">HTML5</span></div>
-                              <div class="col-4 text-right no-pd"><span class="skill-percent">85%</span></div>
-                            </div>
-                            <div class="skill-bar">
-                              <div class="skill-bar-percent gradiant-background" style="width:85%"></div>
-                            </div>
-                          </div>
-                          <div class="single-skill-bar">
-                            <div class="row no-mg">
-                              <div class="col-8 no-pd"><span class="skill-title">CSS3</span></div>
-                              <div class="col-4 text-right no-pd"><span class="skill-percent">90%</span></div>
-                            </div>
-                            <div class="skill-bar">
-                              <div class="skill-bar-percent gradiant-background" style="width:90%"></div>
-                            </div>
-                          </div>
-                          <div class="single-skill-bar">
-                            <div class="row no-mg">
-                              <div class="col-8 no-pd"><span class="skill-title">Java</span></div>
-                              <div class="col-4 text-right no-pd"><span class="skill-percent">75%</span></div>
-                            </div>
-                            <div class="skill-bar">
-                              <div class="skill-bar-percent gradiant-background" style="width:75%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- .col  -->
-
-                  </div>
-                  <!-- .row  -->
-                </div>
-                <!-- .container  -->
-              </div>
-              <!-- .team-profile  -->
-
-            </div>
-          </div>
-          <!-- .col  -->
-
-
 
           <div class="col-md-6 col-lg-4 col-xl-3 d-inline-flex justify-content-center">
                  <div class="team-circle animated" data-animate="fadeInUp" data-delay=".1">
                    <div class="team-photo">
-                     <img src="images/JohnAcosta.png" alt="team">
+                     <img src="images/RonnieForcier.png" alt="team">
                      <!--                  <a href="#team-profile-6" class="expand-trigger content-popup"></a>
           --></div>
                    <div class="team-info">
-                     <h5 class="team-name">John<br>Costa</h5>
-                     <p>Digital Publication Professional</p>
+                     <h5 class="team-name">Ronald<br>Forcier</h5>
+                     <p>Web Developer</p>
                      <ul class="team-social">
                      </ul>
                    </div>
@@ -1793,6 +1730,86 @@
 
 
 
+               <div class="col-md-6 col-lg-4 col-xl-3 d-inline-flex justify-content-center">
+                      <div class="team-circle animated" data-animate="fadeInUp" data-delay=".1">
+                        <div class="team-photo">
+                          <img src="images/JohnAcosta.png" alt="team">
+                          <!--                  <a href="#team-profile-6" class="expand-trigger content-popup"></a>
+               --></div>
+                        <div class="team-info">
+                          <h5 class="team-name">John<br>Costa</h5>
+                          <p>Digital Publication Professional</p>
+                          <ul class="team-social">
+                          </ul>
+                        </div>
+
+                        <!-- Start .team-profile  -->
+                        <div id="team-profile-3" class="team-profile mfp-hide">
+                          <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                          <div class="container-fluid">
+                            <div class="row no-mg">
+                              <div class="col-md-6">
+                                <div class="team-profile-photo">
+                                  <img src="images/team-c-lg.jpg" alt="team" />
+                                </div>
+                              </div>
+                              <!-- .col  -->
+
+                              <div class="col-md-6">
+                                <div class="team-profile-info">
+                                  <h3 class="name">Moises Teare</h3>
+                                  <p class="sub-title">Blochain App Developer</p>
+                                  <ul class="tpi-social">
+                                    <li><a href="#"><em class="fa fa-facebook"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-twitter"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-google-plus"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-instagram"></em></a></li>
+                                  </ul>
+                                  <p>He is a great man to work Lorem ipsum dolor sit amet, consec tetur adipis icing elit. Simi lique, autem. </p>
+                                  <p>Tenetur quos facere magnam volupt ates quas esse Sedrep ell endus mole stiae tates quas esse Sed repell endus molesti aela uda ntium quis quam iusto minima thanks.</p>
+                                  <div class="skill-bars">
+                                    <div class="single-skill-bar">
+                                      <div class="row no-mg">
+                                        <div class="col-8 no-pd"><span class="skill-title">HTML5</span></div>
+                                        <div class="col-4 text-right no-pd"><span class="skill-percent">85%</span></div>
+                                      </div>
+                                      <div class="skill-bar">
+                                        <div class="skill-bar-percent gradiant-background" style="width:85%"></div>
+                                      </div>
+                                    </div>
+                                    <div class="single-skill-bar">
+                                      <div class="row no-mg">
+                                        <div class="col-8 no-pd"><span class="skill-title">CSS3</span></div>
+                                        <div class="col-4 text-right no-pd"><span class="skill-percent">90%</span></div>
+                                      </div>
+                                      <div class="skill-bar">
+                                        <div class="skill-bar-percent gradiant-background" style="width:90%"></div>
+                                      </div>
+                                    </div>
+                                    <div class="single-skill-bar">
+                                      <div class="row no-mg">
+                                        <div class="col-8 no-pd"><span class="skill-title">Java</span></div>
+                                        <div class="col-4 text-right no-pd"><span class="skill-percent">75%</span></div>
+                                      </div>
+                                      <div class="skill-bar">
+                                        <div class="skill-bar-percent gradiant-background" style="width:75%"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- .col  -->
+
+                            </div>
+                            <!-- .row  -->
+                          </div>
+                          <!-- .container  -->
+                        </div>
+                        <!-- .team-profile  -->
+
+                      </div>
+                    </div>
+                    <!-- .col  -->
 
  <div class="col-md-6 col-lg-4 col-xl-3 d-inline-flex justify-content-center">
             <div class="team-circle animated" data-animate="fadeInUp" data-delay=".1">
@@ -3066,7 +3083,7 @@ var iframe = document.getElementById( 'sketch-view' );
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="assets/js/hs-scripts.js"></script>
     <!-- End of HubSpot Embed Code -->
-
+    <script type="text/javascript" src="assets/js/popup.js"></script>
 </body>
 
 </html>
