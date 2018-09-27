@@ -1,25 +1,24 @@
-$(document).ready(function() {
+$(document).ready( function(){
+
 	var $investClose = $(".investClose");
-	var $investPopup = $("#test-popup");
+	var $investPopup = $("#investPopup");
+	var $overlay = $(".overlay");
 
+	// Onload, trigger popup
+	$investPopup.show();
+	$overlay.show();
 
-$investPopup.fadeIn();
-$(".overlay").show();
-	// Inline popups
+	/* -------------------------
+		MUST click close button to close popup.
+	 ------------------------- */
 	$investClose.click(function() {
-			$investPopup.fadeOut();
-			$(".overlay").hide();
+			$investPopup.hide();
+			$overlay.hide();
 	});
-
-	// $(".overlay").click(function() {
-	// 	$investPopup.fadeOut();
-	// 	$(".overlay").hide();
-	// });
 });
 
 
-
-/* Template	:	Leap With Alice Site*/
+/* Template	:	ICO & Leap With Alice Site */
 (function($){
 	'use strict';
 	var $win = $(window), $body_m = $('body'), $navbar = $('.navbar');
@@ -37,7 +36,7 @@ $(".overlay").show();
 		wwCurrent = winwidth();
 	});
 
-	// Sticky
+	// Sticky Nav
 	var $is_sticky = $('.is-sticky');
 	if ($is_sticky.length > 0 ) {
 		var $navm = $('#mainnav').offset();
@@ -81,7 +80,7 @@ $(".overlay").show();
 		});
 	}
 
-	// Bootstrap Dropdown
+	// Bootstrap style Dropdown
 	var $dropdown_menu = $('.dropdown');
 	if ($dropdown_menu.length > 0 ) {
 		$dropdown_menu.on("mouseover",function(){
@@ -103,7 +102,6 @@ $(".overlay").show();
 				$(this).children('.dropdown-menu').toggle();
 				$(this).toggleClass('open');
 			}
-			//e.preventDefault();
 			e.stopPropagation();
 			return true;
 		});
@@ -118,7 +116,6 @@ $(".overlay").show();
 		$dropdown_menu.children('.dropdown-menu').fadeOut("400");
 	});
 
-	// remove ani
 	var $navtoggler = $('.navbar-toggler'), $trannav =$('.is-transparent');
 	if ($navtoggler.length > 0) {
 		$navtoggler.on("click",function(){
@@ -131,13 +128,13 @@ $(".overlay").show();
 		});
 	}
 
-	// Select
+	// Select Box
 	var $selectbox = $('select');
 	if ($selectbox.length > 0) {
 		$selectbox.select2();
 	}
 
-	// Nav collapse
+	// Nav collapse on click
 	$('.menu-link').on("click",function() {
 		$('.navbar-collapse').collapse('hide');
 		$trannav.removeClass('active');
@@ -149,7 +146,7 @@ $(".overlay").show();
 		}
 	});
 
-	//Carousel
+	// Timeline Carousel
 	var $timeline_carousel = $('.timeline-carousel');
 	if ($timeline_carousel.length > 0 ) {
 		var c_rtl = ($body_m.hasClass('is-rtl')) ? true : false;
@@ -180,7 +177,7 @@ $(".overlay").show();
 		});
 	}
 
-	//Carousel
+	// Roadmap Carousel
 	var $roadmap_carousel = $('.roadmap-carousel');
 	if ($roadmap_carousel.length > 0 ) {
 		var c_rtl_r = ($body_m.hasClass('is-rtl')) ? true : false;
@@ -211,7 +208,7 @@ $(".overlay").show();
 		});
 	}
 
-	//Carousel
+	// Autoplay Carousel
 	var $has_carousel = $('.has-carousel');
 	if ($has_carousel.length > 0 ) {
 		var c_rtl_c = ($body_m.hasClass('is-rtl')) ? true : false;
@@ -241,18 +238,17 @@ $(".overlay").show();
 
 
 	// Count Down
-	var $count_token = $('.token-countdown');
-	if ($count_token.length > 0 ) {
-		$count_token.each(function() {
-			var $self = $(this), datetime = $self.attr("data-date");
-			$self.countdown(datetime).on('update.countdown', function(event) {
-				$(this).html(event.strftime('' + '<div class="col"><span class="countdown-time countdown-time-first">%D</span><span class="countdown-text">Days</span></div>' + '<div class="col"><span class="countdown-time">%H</span><span class="countdown-text">Hours</span></div>' + '<div class="col"><span class="countdown-time">%M</span><span class="countdown-text">Minutes</span></div>' + '<div class="col"><span class="countdown-time countdown-time-last">%S</span><span class="countdown-text">Seconds</span></div>'));
-			});
-		});
+	// var $count_token = $('.token-countdown');
+	// if ($count_token.length > 0 ) {
+	// 	$count_token.each(function() {
+	// 		var $self = $(this), datetime = $self.attr("data-date");
+	// 		$self.countdown(datetime).on('update.countdown', function(event) {
+	// 			$(this).html(event.strftime('' + '<div class="col"><span class="countdown-time countdown-time-first">%D</span><span class="countdown-text">Days</span></div>' + '<div class="col"><span class="countdown-time">%H</span><span class="countdown-text">Hours</span></div>' + '<div class="col"><span class="countdown-time">%M</span><span class="countdown-text">Minutes</span></div>' + '<div class="col"><span class="countdown-time countdown-time-last">%S</span><span class="countdown-text">Seconds</span></div>'));
+	// 		});
+	// 	});
+	// }
 
-	}
-
-	//POPUP - Content
+	//POPUP - Content contentpopup123
 	var $content_popup = $('.content-popup');
 	if ($content_popup.length > 0 ) {
 		$content_popup.magnificPopup({
@@ -262,6 +258,7 @@ $(".overlay").show();
 			mainClass: 'mfp-fade bg-team-exp'
 		});
 	}
+
 
 	//POPUP - Video
 	var $video_play = $('.video-play');
@@ -453,9 +450,9 @@ $(".overlay").show();
 		count++;
 	})
 
-/******************************************************************************
-*                   NEW HEADER IMAGE ANIMATION                                *
-*******************************************************************************/
+/* ------------------------------------------------
+          HEADER IMAGE PARTICLE ANIMATION
+--------------------------------------------------- */
 var animation = bodymovin.loadAnimation({
 	container: document.getElementById('animatedHeader'),
 	renderer: 'svg',
@@ -469,7 +466,8 @@ var animation = bodymovin.loadAnimation({
 	var $particles_js = $('#particles-js');
 	if ($particles_js.length > 0 ) {
 		particlesJS('particles-js',
-		// Update your personal code.
+
+		// Custom LWA Particles:
         {
 		"particles": {
 			"number": {
@@ -502,28 +500,28 @@ var animation = bodymovin.loadAnimation({
 				"value": 1,
 				"random": false,
 				"anim": {
-					"enable": false,
-					"speed": 1,
-					"opacity_min": 0.12,
-					"sync": false
+					"enable": false
+					// "speed": 1,
+					// "opacity_min": 0.12,
+					// "sync": false
 				}
 			},
 			"size": {
 				"value": 6,
 				"random": true,
 				"anim": {
-					"enable": false,
-					"speed": 40,
-					"size_min": 0.08,
-					"sync": false
+					"enable": false
+					// "speed": 40,
+					// "size_min": 0.08,
+					// "sync": false
 				}
 			},
 			"line_linked": {
-				"enable": false,
-				"distance": 150,
-				"color": "#2b56f5",
-				"opacity": 0.30,
-				"width": 1.3
+				"enable": false
+				// "distance": 150,
+				// "color": "#2b56f5",
+				// "opacity": 0.30,
+				// "width": 1.3
 			},
 			"move": {
 				"enable": true,
@@ -544,43 +542,65 @@ var animation = bodymovin.loadAnimation({
 			"detect_on": "canvas",
 			"events": {
 				"onhover": {
-					"enable": false,
-					"mode": "repulse"
+					"enable": false
+			//  "mode": "repulse"
 				},
 				"onclick": {
-					"enable": false,
-					"mode": "push"
+					"enable": false
+			//		"mode": "push"
 				},
 				"resize": true
 			},
-			"modes": {
-				"grab": {
-				"distance": 400,
-					"line_linked": {
-						"opacity": 1
-					}
-				},
-				"bubble": {
-					"distance": 400,
-					"size": 40,
-					"duration": 2,
-					"opacity": 8,
-					"speed": 3
-				},
-				"repulse": {
-					"distance": 200,
-					"duration": 0.4
-				},
-				"push": {
-					"particles_nb": 4
-				},
-				"remove": {
-					"particles_nb": 2
-				}
-			}
+			// "modes": {
+			// 	"grab": {
+			// 	"distance": 400,
+			// 		"line_linked": {
+			// 			"opacity": 1
+			// 		}
+			// 	},
+			// 	"bubble": {
+			// 		"distance": 400,
+			// 		"size": 40,
+			// 		"duration": 2,
+			// 		"opacity": 8,
+			// 		"speed": 3
+			// 	},
+			// 	"repulse": {
+			// 		"distance": 200,
+			// 		"duration": 0.4
+			// 	},
+			// 	"push": {
+			// 		"particles_nb": 4
+			// 	},
+			// 	"remove": {
+			// 		"particles_nb": 2
+			// 	}
+			// }
 		},
 			"retina_detect": true
 		}
       );
 	}
 })(jQuery);
+
+
+/* -------------------------
+		SKETCHFAB iFRAME options:
+   ------------------------- */
+
+var iframe = document.getElementById( 'sketch-view' );
+    var urlid = '66bab22422e8471e97858b63c2971975/embed?autospin=0.2&amp;autostart=1;';
+    var client = new Sketchfab( iframe );
+    client.init( urlid, {
+        success: function onSuccess( api ){
+            api.start();
+            // api.addEventListener( 'viewerready', function() {
+            //     //API is ready to use
+            //     //Insert your code here
+            //     console.log( 'Viewer is ready' );
+            // });
+        },
+        error: function onError() {
+            //console.log( 'Viewer error' );
+        }
+    });
