@@ -1,0 +1,415 @@
+/* ========================
+  General Styling:
+=========================== */
+
+body{
+  overflow-x: hidden;
+  color:#FFF;
+  font-family:Helvetica;
+  font-size:200%;
+}
+
+#page {
+  overflow-x: auto;
+  webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  white-space: wrap;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#fff;
+  display:flex;
+  width: auto;
+  flex-wrap: no-wrap;
+}
+.pane {
+  flex:0 0 100vw;
+  height:100vh;
+  display:flex;
+  position:relative;
+  align-items:center;
+  justify-content:center;
+  background-color: #fff;
+  color: #000;
+}
+
+.pane:nth-child(5n+2)  {
+  background-color: #fff;
+}
+.pane:nth-child(5n+3)  {
+  background-color: #fff;
+}
+.pane:nth-child(5n+4)  {
+  background-color: #fff;
+}
+.pane:last-child {
+  background-color: #fff;
+}
+
+.vid-bg{
+}
+
+/* ========================
+  Images Styling:
+=========================== */
+img{
+  max-height: 90vh;
+}
+
+#logo {
+	position: fixed;
+  left: 30px;
+  top: 30px;
+	z-index: 999;
+  height: 103px;
+  width: auto;
+  cursor: pointer;
+}
+
+
+#phoneStraightAddExperience{
+  max-height: 90vh;
+  background:
+  url('../assets/images/Earth.png') no-repeat,
+  url('../assets/images/PNGs/abstractPainting.png') no-repeat;
+  background-size: 20vh, 50vh;
+  min-background-size: 20vh, 50vh;
+  background-position: 45% 50%, 30% 60%;
+  -webkit-animation: earth-float 2s infinite; /* Safari 4.0 - 8.0 */
+  animation: earth-float 2s infinite;
+  transition-timing-function: linear;
+}
+
+/* -----------------------------------
+    Earth & Painting
+    Animations / Positioning
+-------------------------------------- */
+
+@keyframes earth-float {
+	  0% {
+      background-position:
+      45% 45%,
+      30% 50%;
+    }
+    50% {
+      background-position:
+      45% 50%,
+      30% 50%;
+    }
+    100% {
+      background-position:
+      45% 45%,
+      30% 50%;
+    }
+}
+
+/* ========================
+  Font Styling:
+=========================== */
+
+@font-face {
+  font-family: Atlan-Regular;
+  src: url(../assets/fonts/Atlan-Regular.otf);
+}
+
+@font-face {
+  font-family: Atlan-Black;
+  src: url(../assets/fonts/Atlan-Black.otf);
+}
+
+@font-face {
+  font-family: Atlan-Thin;
+  src: url(../assets/fonts/Atlan-Thin.otf);
+}
+
+@font-face {
+  font-family: Atlan-Light;
+  src: url(../assets/fonts/Atlan-Light.otf);
+}
+
+@font-face {
+  font-family: Atlan-Bold;
+  src: url(../assets/fonts/Atlan-Bold.otf);
+}
+
+@font-face {
+  font-family: Atlan-Heavy;
+  src: url(../assets/fonts/Atlan-Heavy.otf);
+}
+
+@font-face {
+  font-family: Atlan-SemiBold;
+  src: url(../assets/fonts/Atlan-SemiBold.otf);
+}
+
+h1.section-title{
+  font-family: 'Atlan-Bold';
+}
+
+div.pane div.side-text{
+    overflow-x: visible;
+    overflow-wrap: break-word;
+}
+
+div.side-text > p.text-description{
+  font-family: 'Atlan-Regular';
+  font-size: 30px !important;
+  height: auto;
+  overflow-wrap: break-word;
+  width: 350px;
+}
+
+p.first-description{
+  font-family: 'Atlan-Regular'
+  width: 500px;
+  color: #777;
+}
+
+/*
+  Mobile Styling!
+*/
+@media screen and (max-width: 800px) {
+  .pane {
+    width: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pane > div {
+    margin: 0 50px;
+  }
+
+  p.text-description{
+    font-family: 'Atlan-Regular';
+  }
+
+  div.side-text > p.text-description{
+    font-family: 'Atlan-Regular';
+    padding: 10px 30px;
+    margin: 0 30px;
+    width: 500px;
+  }
+
+  div.side-text{
+    width: 500px !important;
+    margin-right: 80px;
+    padding-right: 80px;
+  }
+
+  .phone-img{
+    height: 90vh !important;
+  }
+
+  h1.section-title{
+    margin-left: 60px;
+  }
+
+  .last-phone{
+    margin-right: -200px !important;
+  }
+}
+
+/*
+  LWA v2.0 Updates:
+   - popup added
+   - campaign live
+*/
+
+.investModal {
+  transition-property: opacity 1s, margin-left 1s;
+  transition-delay: 0.2s;
+  display: none;
+  position: fixed;
+  height: auto;
+  margin-left: -37.5%;
+  min-height: 300px;
+  max-height: 100%;
+  min-width: 50%;
+  max-width: 100%;
+  background: #FFF;
+  z-index: 999999999;
+}
+
+.popupContainer{
+  position: fixed;
+  left:50%;
+  top: 20%;
+  z-index: 9999;
+  width: auto;
+  height: auto;
+  min-height: 300px;
+  max-height: 100%;
+  min-width: 100px;
+  max-width: 700px;
+  padding: 40px 20px;
+}
+
+.popupContainer > div > div > div > a{
+  width: auto;
+  text-decoration: none;
+  color: darkblue;
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 3.5vh;
+  font-family: 'Atlan-Bold';
+  top: -150px;
+}
+
+.popupContainer > div > div > div{
+  display: inline-block;
+  margin: 0 auto;
+  width: auto;
+  font-size: 3.5vh;
+  font-family: 'Atlan-Bold';
+}
+
+.popupContainer .wrapper{
+  position: relative;
+  left: -50%;
+  top: -20%;
+  /*popup-styles*/
+  background-color:#fff;
+  padding: 40px 20px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px) {
+/* Styles */
+.popupContainer > div > div > div > a{
+  text-decoration: none;
+  color: darkblue;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.popupContainer > div > div > div > img{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.popupContainer > div > div > div {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  text-align: center;
+}
+
+  .popupContainer{
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    z-index: 9999;
+    width: auto;
+    height: auto;
+    min-height: 300px;
+    max-height: 100%;
+    min-width: 200px;
+    max-width: 550px;
+    padding: 40px 10px !important;
+  }
+
+  .investButton{
+    margin-left: auto;
+  }
+
+  .popupContainer .wrapper{
+    position: relative;
+    left: -20%;
+    top: -1%;
+    /* popup-styles */
+    background-color:#fff;
+    padding: 30px 10px !important;
+    padding-right: 0 !important;
+    text-align: center !important;
+  }
+}
+
+.popupContainer{
+  width: 100%;
+}
+
+
+.popup-text{
+  font-size: 24px;
+  font-weight: 800;
+  width: auto;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 20px;
+  bottom: 120px;
+}
+
+.fontCenter{
+  color: white;
+  font-size: 36px;
+  position: absolute;
+  z-index: 999999999;
+  margin: 0 auto;
+  margin-top: -45px !important;
+}
+
+.investClose:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.investButton:hover{
+  cursor: pointer;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+
+a.investButton:hover + a.popup-text{
+  opacity: 0.5;
+}
+
+/* Force only popup <hr> tag to have these stylings */
+#popup-hr{
+  border: 2px solid black !important;
+}
+
+
+div.overlay {
+    position: absolute;
+    z-index: 900;
+    display: none;
+    width: 110%;
+    height: 110%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    opacity: 0.5;
+    filter: alpha(opacity = 50); /* required for opacity to work in IE */
+}
+
+.investContainer{
+  border-radius: 20px;
+  width: auto !important;
+}
+
+.centered-content{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline;
+}
+
+.shadow {
+  -moz-box-shadow:    2px 3px 10px 2px #ccc;
+  -webkit-box-shadow: 2px 3px 10px 2px #ccc;
+  box-shadow:         2px 3px 10px 2px #ccc;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  max-width: 40vw;
+  justify-content: space-between;
+}
+/*
+  END 2.0 - SE live -rf
+*/

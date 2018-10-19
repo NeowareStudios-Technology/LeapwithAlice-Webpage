@@ -1,0 +1,35 @@
+
+@font-face {
+  font-family: Atlan-Regular;
+  src: url(./assets/fonts/Atlan-Regular.otf);
+}
+
+@font-face {
+  font-family: Atlan-Black;
+  src: url(./assets/fonts/Atlan-Black.otf);
+}
+
+@font-face {
+  font-family: Atlan-Thin;
+  src: url(./assets/fonts/Atlan-Thin.otf);
+}
+
+@font-face {
+  font-family: Atlan-Light;
+  src: url(./assets/fonts/Atlan-Light.otf);
+}
+
+@font-face {
+  font-family: Atlan-Bold;
+  src: url(./assets/fonts/Atlan-Bold.otf);
+}
+
+@font-face {
+  font-family: Atlan-Heavy;
+  src: url(./assets/fonts/Atlan-Heavy.otf);
+}
+
+@font-face {
+  font-family: Atlan-SemiBold;
+  src: url(./assets/fonts/Atlan-SemiBold.otf);
+}
