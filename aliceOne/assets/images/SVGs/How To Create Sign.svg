@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="386px" height="425px" viewBox="0 0 386 425" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>How To Create Sign</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="205.825662" height="306.638231"></rect>
+        <filter x="-22.3%" y="-14.3%" width="144.7%" height="130.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.570551658   0 0 0 0 0.570551658   0 0 0 0 0.570551658  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="245" height="365"></rect>
+        <filter x="-18.8%" y="-12.1%" width="137.6%" height="125.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.570551658   0 0 0 0 0.570551658   0 0 0 0 0.570551658  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Alice-One-Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="How-To-Create-Sign" transform="translate(30.000000, 28.000000)">
+            <g id="How-to-View" transform="translate(172.172726, 218.690722) rotate(18.000000) translate(-172.172726, -218.690722) translate(69.172726, 25.690722)">
+                <g id="Rectangle-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#3C98FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="STEP-BY-STEP" font-family="Atlan-Bold, Atlan" font-size="34" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="13.4416759" y="215.030114">STE</tspan>
+                    <tspan x="13.4416759" y="256.030114">P</tspan>
+                    <tspan x="13.4416759" y="297.030114">BY </tspan>
+                    <tspan x="13.4416759" y="338.030114">STE</tspan>
+                    <tspan x="13.4416759" y="379.030114">P</tspan>
+                </text>
+                <text id="HOW-TO-VIEW" font-family="Atlan-Black, Atlan" font-size="42" font-weight="700" fill="#FFFFFF">
+                    <tspan x="13.4416759" y="48.2870178">HOW </tspan>
+                    <tspan x="13.4416759" y="99.2870178">TO </tspan>
+                    <tspan x="13.4416759" y="150.287018">VIEW</tspan>
+                </text>
+            </g>
+            <g id="How-to-Create">
+                <g id="Rectangle-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFB23C" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <text id="STEP-BY-STEP" font-family="Atlan-Bold, Atlan" font-size="34" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="16" y="261">STEP</tspan>
+                    <tspan x="16" y="302">BY </tspan>
+                    <tspan x="16" y="343">STEP</tspan>
+                </text>
+                <text id="HOW-TO-CREATE" font-family="Atlan-Black, Atlan" font-size="42" font-weight="700" fill="#FFFFFF">
+                    <tspan x="16" y="59">HOW TO </tspan>
+                    <tspan x="16" y="110">CREATE</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

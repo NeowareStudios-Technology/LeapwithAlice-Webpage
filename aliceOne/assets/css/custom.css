@@ -1,0 +1,89 @@
+.hs-input {
+  display: inline-block;
+  width: 90%;
+  max-width: 500px;
+  height: 40px;
+  padding: 9px 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #000;
+  background-color: #f5f8fa;
+  border: 1px solid #cbd6e2;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 100px;
+}
+
+.header {
+  display: inline-block;
+  padding: 9px 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #fff;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.hs-field-desc {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.hs-form-required {
+  display: inline-block;
+  height: 40px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #fff;
+}
+
+.buttonsign {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 100px;
+  border-color: white;
+  height: 50px;
+  width: 150px;
+}
+
+.hs-form-field{
+  padding-top: 10px;
+}
+
+#passport-div{
+  display:none;
+}
+
+.num{
+	position:relative;
+}
+
+.ssno-number{
+	position: absolute;
+}
+
+.ssno-value{
+	position: absolute;
+  top: 0;
+	color: transparent !important;
+	background: transparent;
+	border:none;
+}
