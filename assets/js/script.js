@@ -5,16 +5,16 @@ $(document).ready( function(){
 	var $overlay = $(".overlay");
 
 	// Onload, trigger popup
-	$investPopup.show();
-	$overlay.show();
+	// $investPopup.show();
+	// $overlay.show();
 
 	/* -------------------------
 		MUST click close button to close popup.
 	 ------------------------- */
-	$investClose.click(function() {
-			$investPopup.hide();
-			$overlay.hide();
-	});
+	// $investClose.click(function() {
+	// 		$investPopup.hide();
+	// 		$overlay.hide();
+	// });
 });
 
 
